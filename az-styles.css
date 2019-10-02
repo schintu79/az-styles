@@ -1,9 +1,6 @@
-@charset "UTF-8";
-
 /*!
- * AZ-styles.css - https://github.com/schintu79/az-styles/az-styles.css/
+ * AZ-styles.css 
  * Version - 1.1
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
  * Copyright (c) 2019 Stefano Schintu
  */
@@ -11,165 +8,1116 @@
 
 /* TABLE OF CONTENT 
 - COLORS
-    - Background
-    - Text
-    - Border
+    > BACKGROUNDS
+        -Blacks
+        -Whites
+        -Greys
+        -Blues
+        -Reds
+        -Greens
+        -Purples
+        -Browns
+        -Orange
+        -Yellows
+    > TEXT
+        -Blacks
+        -Whites
+        -Greys
+        -Blues
+        -Reds
+        -Greens
+        -Purples
+        -Browns
+        -Orange
+        -Yellows
+    > BORDERS
+        -Blacks
+        -Whites
+        -Greys
+        -Blues
+        -Reds
+        -Greens
+        -Purples
+        -Browns
+        -Orange
+        -Yellows
+- GRADIENTS
 - STYLES
     - Opacity
     - Formatting
-    - Heights
     - Paddings
     - Margins
     - Shape Styles
+    - Borders
     - Shadows
     - Overlays
+    - Buttons
 
 /*------ COLORS -----*/
 
-/* Background */
-.black{background:#000!important}
-.grey{background:#999!important}
-.white{background:#fff!important}
-.dark{background:#051b35!important}
-.dark-two{background:#05172b!important}
-.gold{background:#ad974f!important}
-.navy{background:#02307a!important}
-.blue{background:#3974d4!important}
-.blue-vibrant{background:#434bdf!important}
-.light-blue{background:#f6f8fa!important}
-.light-grey{background:#f6f6f6!important}
-.red{background:#f73859!important}
-.light-red{background:#ffeded!important}
-.light-green{background:#ebeee5!important}
-.green{background:#17b88f!important}
-.orange{background:#ff9600!important}
-.yellow{background:#ffd200!important}
-.violet{background:#570051!important}
-.viola{background:#19191f!important}
-.pink{background:#ca195d!important}
-.light-pink{background:#fef3ed!important}
-.wedding-white{background:#f7f7ef!important}
-.light-sky{background:#d5dee5!important}
-.light-moon{background:#d5d2c1!important}
-.wolf{background:#c9c0bb!important}
-.lavender{background:#ededed!important}
-.sage{background:#b0b3a2!important}
-.pine{background:#6d7975!important}
-.brick{background:#cf816a!important}
-.marina{background:#111b24!important}
-.snow{background:#f4f1eb!important}
-.salt{background:#e6b89e!important}
-.moon{background:#e3d9cf!important}
-.clay{background:#cab69e!important}
-.dark-clay{background:#342e28!important}
+/* BACKGROUNDS */
 
-/* Text */
-.t-black{color:#000!important}
-.t-grey{color:#999!important}
-.t-white{color:#fff!important}
-.t-dark{color:#051b35!important}
-.t-dark-two{color:#05172b!important}
-.t-gold{color:#ad974f!important}
-.t-navy{color:#02307a!important}
-.t-blue{color:#3974d4!important}
-.t-blue-vibrant{color:#434bdf!important}
-.t-light-blue{color:#f2f2fc!important}
-.t-light-grey{color:#f6f8fa!important}
-.t-red{color:#f73859!important}
-.t-light-red{color:#ffeded!important}
-.t-light-green{color:#ebeee5!important}
-.t-green{color:#17b88f!important}
-.t-orange{color:#ff9600!important}
-.t-yellow{color:#ffd200!important}
-.t-violet{color:#570051!important}
-.t-viola{color:#19191f!important}
-.t-pink{color:#ca195d!important}
-.t-light-pink{color:#fef3ed!important}
-.t-wedding-white{color:#f7f7ef!important}
-.t-light-sky{color:#d5dee5!important}
-.t-light-moon{color:#d5d2c1!important}
-.t-wolf{color:#c9c0bb!important}
-.t-lavender{color:#ededed!important}
-.t-sage{color:#b0b3a2!important}
-.t-pine{color:#6d7975!important}
-.t-brick{color:#cf816a!important}
-.t-marina{color:#111b24!important}
-.t-snow{color:#f4f1eb!important}
-.t-salt{color:#e6b89e!important}
-.t-moon{color:#e3d9cf!important}
-.t-clay{color:#cab69e!important}
-.t-dark-clay{color:#342e28!important}
+/* Blacks */
+.black, .hv-black:hover{background:#000!important}
+.cold-black, .hv-cold-black:hover{background:#232323!important}
+.designer-black, .hv-designer-black:hover{background:#282828!important}
+.black-matte, .hv-black-matte:hover{background:#141414!important}
+.neutral-black, .hv-neutral-black:hover{background:#393836!important}
+.elegant-black, .hv-elegant-black:hover{background:#0b0c10!important}
+.eigen-black, .hv-eigen-black:hover{background:#16161d!important}
+.dark-grey, .hv-dark-grey:hover{background:#333!important}
+.boot, .hv-boot:hover{background:#353a3f!important}
+.cyberspace, .hv-cyberspace:hover{background:#454a4e!important}
+.charcoal, .hv-charcoal:hover{background:#27231d!important}
+.soot, .hv-soot:hover{background:#140e07!important}
 
-/* Borders */
-.b-black{border-color:#000!important}
-.b-grey{border-color:#999!important}
-.b-white{border-color:#fff!important}
-.b-dark{border-color:#051b35!important}
-.b-dark-two{border-color:#05172b!important}
-.b-gold{border-color:#ad974f!important}
-.b-navy{border-color:#02307a!important}
-.b-blue{border-color:#3974d4!important}
-.b-blue-vibrant{border-color:#434bdf!important}
-.b-light-blue{border-color:#f2f2fc!important}
-.b-light-grey{border-color:#f6f8fa!important}
-.b-red{border-color:#f73859!important}
-.b-light-red{border-color:#ffeded!important}
-.b-light-green{border-color:#ebeee5!important}
-.b-green{border-color:#17b88f!important}
-.b-orange{border-color:#ff9600!important}
-.b-yellow{border-color:#ffd200!important}
-.b-violet{border-color:#570051!important}
-.b-viola{border-color:#19191f!important}
-.b-pink{border-color:#ca195d!important}
-.b-light-pink{border-color:#fef3ed!important}
-.b-wedding-white{border-color:#f7f7ef!important}
-.b-light-sky{border-color:#d5dee5!important}
-.b-light-moon{border-color:#d5d2c1!important}
-.b-wolf{border-color:#c9c0bb!important}
-.b-lavender{border-color:#ededed!important}
-.b-sage{border-color:#b0b3a2!important}
-.b-pine{border-color:#6d7975!important}
-.b-brick{border-color:#cf816a!important}
-.b-marina{border-color:#111b24!important}
-.b-snow{border-color:#f4f1eb!important}
-.b-salt{border-color:#e6b89e!important}
-.b-moon{border-color:#e3d9cf!important}
-.b-clay{border-color:#cab69e!important}
-.b-dark-clay{border-color:#342e28!important}
+/* Whites */
+.white, .hv-white:hover{background:#fff!important}
+.light-white, .hv-light-white:hover{background:#fafafa!important}
+.light-grey, .hv-light-grey:hover{background:#f6f6f6!important}
+.light-smoke, .hv-light-smoke:hover{background:#f9f9f9!important}
+.cloud, .hv-cloud:hover{background:#faf9fc!important}
 
-.no-bg{
-    background:transparent!important;
+/* Greys */
+.grey, .hv-grey:hover{background:#999!important}
+.dark-smoke, .hv-dark-smoke:hover{background:#666!important}
+.web-grey, .hv-web-grey:hover{background:#606669!important}
+.software, .hv-software:hover{background:#7d8384!important}
+.stone, .hv-stone:hover{background:#cfd0d2!important}
+.concrete, .hv-concrete:hover{background:#bcbdc1!important}
+.smoke, .hv-smoke:hover{background:#d9d9d9!important}
+.mist-grey, .hv-mist-grey:hover{background:#e0e0e0!important}
+.marble-grey, .hv-marble-grey:hover{background:#e7e7e8!important}
+
+/* Blues */
+.black-blue, .hv-black-blue:hover{background:#05172b!important}
+.dark-navy, .hv-dark-navy:hover{background:#051b35!important}
+.elegance, .hv-elegance:hover{background:#061e3e!important}
+.blue-navy, .hv-blue-navy:hover{background:#081433!important}
+.outer-space, .hv-outer-space:hover{background:#344976!important}
+.midnight-blue, .hv-midnight-blue:hover{background:#021F3E!important}
+.marina, .hv-marina:hover{background:#111b24!important}
+.blue-violet, .hv-blue-violet:hover{background:#3C4991!important}
+.teal-blue, .hv-teal-blue:hover{background:#1F4670!important}
+.blue-ultra, .hv-blue-ultra:hover{background:#1430AD!important}
+.navy, .hv-navy:hover{background:#02307a!important}
+.google-blue, .hv-google-blue:hover{background:#4885ed!important}
+.blue-electric, .hv-blue-electric:hover{background:#1744BC!important}
+.blue-vibrant, .hv-blue-vibrant:hover{background:#434bdf!important}
+.blue, .hv-blue:hover{background:#3974d4!important}
+.denim, .hv-denim:hover{background:#4571BD!important}
+.pacific-blue, .hv-pacific-blue:hover{background:#4397C7!important}
+.aquamarine, .hv-aquamarine:hover{background:#56B5D2!important}
+.cerulian-blue, .hv-cerulian-blue:hover{background:#4A90E2!important}
+.cornflower-blue, .hv-cornflower-blue:hover{background:#6F92E5!important}
+.blue-host, .hv-blue-host:hover{background:#648EFF!important}
+.blue-bell, .hv-blue-bell:hover{background:#7FB2E3!important}
+.blizzard-blue, .hv-blizzard-blue:hover{background:#A3DFFC!important}
+.sky, .hv-sky:hover{background:#B2ECFC!important}
+.blue-cloud, .hv-blue-cloud:hover{background:#D1E2F2!important}
+.blue-day, .hv-blue-day:hover{background:#86DBFD!important}
+.twitter, .hv-twitter:hover{background:#5DD5FF!important}
+.skype, .hv-skype:hover{background:#18AEF0!important}
+.myspace, .hv-myspace:hover{background:#2656B8!important}
+.facebook, .hv-facebook:hover{background:#3C5897!important}
+.blue-link, .hv-blue-link:hover{background:#0700CC!important}
+.explorer, .hv-explorer:hover{background:#0C6DB5!important}
+.linkedin, .hv-linkedin:hover{background:#3276b2!important}
+.aol, .hv-aol:hover{background:#243350!important}
+.blue-energy, .hv-blue-energy:hover{background:#3EE8FF!important}
+.blue-light, .hv-blue-light:hover{background:#3867E7!important}
+.blue-azure, .hv-blue-azure:hover{background:#1380FF!important}
+.pale-blue, .hv-pale-blue:hover{background:#9ACBFF!important}
+.alice-blue, .hv-alice-blue:hover{background:#F0F8FF!important}
+.light-blue, .hv-light-blue:hover{background:#f6f8fa!important}
+.morning-blue, .hv-morning-blue:hover{background:#E8F2FC!important}
+.light-sky, .hv-light-sky:hover{background:#d5dee5!important}
+.dropbox, .hv-dropbox:hover{background:#0a1850!important}
+
+/* Reds */
+.red-brick, .hv-red-brick:hover{background:#c13f36!important}
+.white-red, .hv-white-red:hover{background:#ffeded!important}
+.web-red, .hv-web-red:hover{background:#f73859!important}
+.plus-red, .hv-plus-red:hover{background:#f63f3a!important}
+.google-red, .hv-google-red:hover{background:#db3236!important}
+.you-tube, .hv-you-tube:hover{background:#d50d1a!important}
+.cherry, .hv-cherry:hover{background:#8d2112!important}
+.red-rose, .hv-red-rose:hover{background:#d13a35!important}
+.back-red, .hv-back-red:hover{background:#d12229!important}
+.smooth-red, .hv-smooth-red:hover{background:#f15d59!important}
+.jam, .hv-jam:hover{background:#581610!important}
+.merlot, .hv-merlot:hover{background:#4e221d!important}
+.garnet, .hv-garnet:hover{background:#58140b!important}
+.crimson, .hv-crimson:hover{background:#aa271b!important}
+.ruby, .hv-ruby:hover{background:#851b11!important}
+.scarlet, .hv-scarlet:hover{background:#861e15!important}
+.wine, .hv-wine:hover{background:#460e09!important}
+.apple, .hv-apple:hover{background:#9c2a1b!important}
+.mahogany, .hv-mahogany:hover{background:#3d110c!important}
+.blood, .hv-blood:hover{background:#68170d!important}
+.sangria, .hv-sangria:hover{background:#571e17!important}
+.berry, .hv-berry:hover{background:#702118!important}
+.currant, .hv-currant:hover{background:#5f160e!important}
+.blush, .hv-blush:hover{background:#b05a4e!important}
+.candy, .hv-candy:hover{background:#c22f1d!important}
+.lipstick, .hv-lipstick:hover{background:#902213!important}
+.red, .hv-red:hover{background:#ff2c18!important}
+.weak-red, .hv-weak-red:hover{background:#ff2c44!important}
+.electric-red, .hv-electric-red:hover{background:#d80d2c!important}
+.roof, .hv-roof:hover{background:#ff6f6e!important}
+.vintage-red, .hv-vintage-red:hover{background:#f23d5d!important}
+.dark-red, .hv-dark-red:hover{background:#D0021B!important}
+.light-red, .hv-light-red:hover{background:#FF8E9E!important}
+.mid-red, .hv-mid-red:hover{background:#E94960!important}
+.power-red, .hv-power-red:hover{background:#E4421B!important}
+.lego-red, .hv-lego-red:hover{background:#e82e22!important}
+.burgundy, .hv-burgundy:hover{background:#800020!important}
+.pinterest, .hv-pinterest:hover{background:#e60023!important}
+
+/* Greens */
+.night-green, .hv-night-green:hover{background:#011e1c!important}
+.forest, .hv-forest:hover{background:#041a19!important}
+.shadow-green, .hv-shadow-green:hover{background:#082a29!important}
+.green, .hv-green:hover{background:#17b88f!important}
+.web-green, .hv-web-green:hover{background:#008000!important}
+.google-green, .hv-google-green:hover{background:#3cba54!important}
+.pine, .hv-pine:hover{background:#6d7975!important}
+.light-green, .hv-light-green:hover{background:#ebeee5!important}
+.sage, .hv-sage:hover{background:#b0b3a2!important}
+.vibrant-green, .hv-vibrant-green:hover{background:#37fe77!important}
+.lego-green, .hv-lego-green:hover{background:#008639!important}
+.seafoam, .hv-seafoam:hover{background:#3cec97!important}
+.glass-green, .hv-glass-green:hover{background:#c4d8b3!important}
+.pistachio, .hv-pistachio:hover{background:#c1e0c9!important}
+.elegant-green, .hv-elegant-green:hover{background:#26bc9b!important}
+.electric-green, .hv-electric-green:hover{background:#2bffbd!important}
+.grass, .hv-grass:hover{background:#35cd70!important}
+.chartreuse, .hv-chartreuse:hover{background:#b0fc38!important}
+.crocodile, .hv-crocodile:hover{background:#607d3b!important}
+.inner-green, .hv-inner-green:hover{background:#42bca4!important}
+.outer-green, .hv-outer-green:hover{background:#04745e!important}
+.pickle, .hv-pickle:hover{background:#597d35!important}
+.moss, .hv-moss:hover{background:#466d1e!important}
+.olive, .hv-olive:hover{background:#98bf64!important}
+.pear, .hv-pear:hover{background:#74b62e!important}
+.seaweed, .hv-seaweed:hover{background:#354a21!important}
+.lime, .hv-lime:hover{background:#c1fd65!important}
+.mint, .hv-mint:hover{background:#98edc3!important}
+.ferm, .hv-ferm:hover{background:#5cbc63!important}
+.jupiter, .hv-jupiter:hover{background:#3a5311!important}
+.pale-green, .hv-pale-green:hover{background:#8bd5b2!important}
+.nature, .hv-nature:hover{background:#77ad1b!important}
+.dark-green, .hv-dark-green:hover{background:#1a3d1f!important}
+.grey-green, .hv-grey-green:hover{background:#27363b!important}
+.lavender-green, .hv-lavender-green:hover{background:#99b998!important}
+.hyper-green, .hv-hyper-green:hover{background:#00ff00!important}
+.tree, .hv-tree:hover{background:#00d400!important}
+.wedding-white, .hv-wedding-white:hover{background:#f7f7ef!important}
+.light-moon, .hv-light-moon:hover{background:#d5d2c1!important}
+.beige, .hv-beige:hover{background:#f6f6e0!important}
+.olive-leaf, .hv-olive-leaf:hover{background:#dbecc2!important}
+.amalfi, .hv-amalfi:hover{background:#edefa4!important}
+
+
+/* Purples */
+.black-purple, .hv-black-purple:hover{background:#2d114e!important}
+.dark-viola, .hv-dark-viola:hover{background:#251e3e!important}
+.deep-viola, .hv-deep-viola:hover{background:#3b3052!important}
+.vibrant-viola, .hv-vibrant-viola:hover{background:#7F00FF!important}
+.web-violet, .hv-web-violet:hover{background:#570051!important}
+.viola, .hv-viola:hover{background:#19191f!important}
+.periwinkle, .hv-periwinkle:hover{background:#CCCCFF!important}
+.violet, .hv-violet:hover{background:#ee82ee!important}
+.dark-lavender, .hv-dark-lavender:hover{background:#9791ae!important}
+.lilla, .hv-lilla:hover{background:#dbb6fb!important}
+.rose, .hv-rose:hover{background:#de70ec!important}
+.elegant-viola, .hv-elegant-viola:hover{background:#8f0a3e!important}
+.dark-burgundy, .hv-dark-burgundy:hover{background:#700044!important}
+.pale-viola, .hv-pale-viola:hover{background:#603553!important}
+.lavender, .hv-lavender:hover{background:#d8cce7!important}
+.white-purple, .hv-white-purple:hover{background:#EDE7F6!important}
+.vintage-violet, .hv-vintage-violet:hover{background:#8b4f7a!important}
+.electric-violet, .hv-electric-violet:hover{background:#4c005a!important}
+.vibrant-violet, .hv-vibrant-violet:hover{background:#a312e0!important}
+.dreamer, .hv-dreamer:hover{background:#e6c3f5!important}
+.deep-purple, .hv-deep-purple:hover{background:#673AB7!important}
+.mid-purple, .hv-mid-purple:hover{background:#B39DDB!important}
+.vibrant-purple, .hv-vibrant-purple:hover{background:#6200EA!important}
+.superman, .hv-superman:hover{background:#651FFF!important}
+.blue-purple, .hv-blue-purple:hover{background:#311B92!important}
+.dark-purple, .hv-dark-purple:hover{background:#4527A0!important}
+.vintage-purple, .hv-vintage-purple:hover{background:#7E57C2!important}
+.vibrant-pink, .hv-vibrant-pink:hover{background:#EB1DBC!important}
+.pastel-pink, .hv-pastel-pink:hover{background:#ffd6f3!important}
+.light-salmon, .hv-light-salmon:hover{background:#fef3ed!important}
+.vintage-pink, .hv-vintage-pink:hover{background:#f3719d!important}
+.hollywood-pink, .hv-hollywood-pink:hover{background:#fe01b1!important}
+.cotton-candy, .hv-cotton-candy:hover{background:#ffb7ce!important}
+.azalea, .hv-azalea:hover{background:#f7cee0!important}
+.change, .hv-change:hover{background:#ff1476!important}
+.dark-pink, .hv-dark-pink:hover{background:#d58a94!important}
+.hibiscus, .hv-hibiscus:hover{background:#cb416b!important}
+.geraldine, .hv-geraldine:hover{background:#fc8f9b!important}
+.peach, .hv-peach:hover{background:#ffd5d1!important}
+.camelot, .hv-camelot:hover{background:#872657!important}
+.han, .hv-han:hover{background:#de9dac!important}
+.ballet, .hv-ballet:hover{background:#f69abf!important}
+.salmon, .hv-salmon:hover{background:#fdab9f!important}
+.light-pink, .hv-light-pink:hover{background:#ffeaf9!important}
+.pink, .hv-pink:hover{background:#FFC0CB!important}
+.deep-pink, .hv-deep-pink:hover{background:#FF1493!important}
+.snow, .hv-snow:hover{background:#f4f1eb!important}
+.ig-pink, .hv-ig-pink:hover{background:#e1306c!important}
+.ig-purple, .hv-ig-purple:hover{background:#c13584!important}
+.ig-violet, .hv-ig-violet:hover{background:#833ab4!important}
+
+
+/* Browns */
+.clay, .hv-clay:hover{background:#cab69e!important}
+.dark-clay, .hv-dark-clay:hover{background:#342e28!important}
+.dark-brown, .hv-dark-brown:hover{background:#3E2723!important}
+.tan-brown, .hv-tan-brown:hover{background:#D2B48C!important}
+.peru, .hv-peru:hover{background:#CD853F!important}
+.elegant-brown, .hv-elegant-brown:hover{background:#472f18!important}
+.vintage-brown, .hv-vintage-brown:hover{background:#ba9a66!important}
+.yellow-brown, .hv-yellow-brown:hover{background:#986733!important}
+.siena, .hv-siena:hover{background:#A0522D!important}
+.wood, .hv-wood:hover{background:#653300!important}
+.brown, .hv-brown:hover{background:#5d381e!important}
+.light-brown, .hv-light-brown:hover{background:#D7CCC8!important}
+.mid-brown, .hv-mid-brown:hover{background:#8D6E63!important}
+.deep-brown, .hv-deep-brown:hover{background:#5D4037!important}
+.mild-brown, .hv-mild-brown:hover{background:#7c5835!important}
+.wolf, .hv-wolf:hover{background:#c9c0bb!important}
+.moon, .hv-moon:hover{background:#e3d9cf!important}
+.ochre, .hv-ochre:hover{background:#c17b37!important}
+.cider, .hv-cider:hover{background:#a96a38!important}
+
+/* Orange */
+.orange, .hv-orange:hover{background:#ec702d!important}
+.brick, .hv-brick:hover{background:#cf816a!important}
+.salt, .hv-salt:hover{background:#e6b89e!important}
+.arancio, .hv-arancio:hover{background:#ff9600!important}
+.burnt-orange, .hv-burnt-orange:hover{background:#dc4705!important}
+.terracotta, .hv-terracotta:hover{background:#d36216!important}
+.honey, .hv-honey:hover{background:#d68d02!important}
+.carrot, .hv-carrot:hover{background:#fd6500!important}
+.sandstone, .hv-sandstone:hover{background:#cb773d!important}
+.pumpkin, .hv-pumpkin:hover{background:#ff5603!important}
+.caramel, .hv-caramel:hover{background:#fe8a03!important}
+.ginger, .hv-ginger:hover{background:#d57f10!important}
+.royal, .hv-royal:hover{background:#eb8741!important}
+.tiger, .hv-tiger:hover{background:#ed722e!important}
+.warm-fire, .hv-warm-fire:hover{background:#f3a93f!important}
+.apricot, .hv-apricot:hover{background:#e28734!important}
+.squash, .hv-squash:hover{background:#be6228!important}
+.salamander, .hv-salamander:hover{background:#e06737!important}
+.melon, .hv-melon:hover{background:#ec9d6d!important}
+.shy-orange, .hv-shy-orange:hover{background:#ff9149!important}
+.elegant-orange, .hv-elegant-orange:hover{background:#fd5733!important}
+.light-orange, .hv-light-orange:hover{background:#fecea8!important}
+.mid-orange, .hv-mid-orange:hover{background:#FF8A65!important}
+.rose-orange, .hv-rose-orange:hover{background:#FFCCBC!important}
+.white-orange, .hv-white-orange:hover{background:#FBE9E7!important}
+.ig-orange, .hv-ig-orange:hover{background:#f56040!important}
+
+/* Yellows */
+.gold, .hv-gold:hover{background:#ad974f!important}
+.yellow, .hv-yellow:hover{background:#ffd200!important}
+.amber, .hv-amber:hover{background:#f5c042!important}
+.mellow, .hv-mellow:hover{background:#f8de7f!important}
+.royal-yellow, .hv-royal-yellow:hover{background:#fada5f!important}
+.cyber-yellow, .hv-cyber-yellow:hover{background:#f8dd08!important}
+.tromba, .hv-tromba:hover{background:#d2b45a!important}
+.bumblebee, .hv-bumblebee:hover{background:#fce205!important}
+.light-gold, .hv-light-gold:hover{background:#dcc26b!important}
+.cream, .hv-cream:hover{background:#fdfbd7!important}
+.mustard, .hv-mustard:hover{background:#f4d55d!important}
+.fire, .hv-fire:hover{background:#fdb70f!important}
+.dark-yellow, .hv-dark-yellow:hover{background:#fec400!important}
+.vibrant-yellow, .hv-vibrant-yellow:hover{background:#fdf938!important}
+.pale-yellow, .hv-pale-yellow:hover{background:#fff57d!important}
+.lemon, .hv-lemon:hover{background:#ffff66!important}
+.light-yellow, .hv-light-yellow:hover{background:#fffbc7!important}
+.banana, .hv-banana:hover{background:#fcf4a3!important}
+.pineapple, .hv-pineapple:hover{background:#fff100!important}
+.blond, .hv-blond:hover{background:#feeb75!important}
+.corn, .hv-corn:hover{background:#e4cd05!important}
+.google-yellow, .hv-google-yellow:hover{background:#f4c20d!important}
+.snapchat, .hv-snapchat:hover{background:#fffc00!important}
+.ig-yellow, .hv-ig-yellow:hover{background:#ffdc80!important}
+.deep-yellow, .hv-deep-yellow:hover{background:#feb300!important}
+
+/* TEXT */
+
+/* Blacks */
+.t-black, .t-hv-black:hover{color:#000!important}
+.t-cold-black, .t-hv-cold-black:hover{color:#232323!important}
+.t-designer-black, .t-hv-designer-black:hover{color:#282828!important}
+.t-black-matte, .t-hv-black-matte:hover{color:#141414!important}
+.t-neutral-black, .t-hv-neutral-black:hover{color:#393836!important}
+.t-elegant-black, .t-hv-elegant-black:hover{color:#0b0c10!important}
+.t-eigen-black, .t-hv-eigen-black:hover{color:#16161d!important}
+.t-dark-grey, .t-hv-dark-grey:hover{color:#333!important}
+.t-boot, .t-hv-boot:hover{color:#353a3f!important}
+.t-cyberspace, .t-hv-cyberspace:hover{color:#454a4e!important}
+.t-charcoal, .t-hv-charcoal:hover{color:#27231d!important}
+.t-soot, .t-hv-soot:hover{color:#140e07!important}
+
+/* Whites */
+.t-white, .t-hv-white:hover{color:#fff!important}
+.t-light-white, .t-hv-light-white:hover{color:#fafafa!important}
+.t-light-grey, .t-hv-light-grey:hover{color:#f6f6f6!important}
+.t-light-smoke, .t-hv-light-smoke:hover{color:#f9f9f9!important}
+.t-cloud, .t-hv-cloud:hover{color:#faf9fc!important}
+
+/* Greys */
+.t-grey, .t-hv-grey:hover{color:#999!important}
+.t-dark-smoke, .t-hv-dark-smoke:hover{color:#666!important}
+.t-web-grey, .t-hv-web-grey:hover{color:#606669!important}
+.t-software, .t-hv-software:hover{color:#7d8384!important}
+.t-stone, .t-hv-stone:hover{color:#cfd0d2!important}
+.t-concrete, .t-hv-concrete:hover{color:#bcbdc1!important}
+.t-smoke, .t-hv-smoke:hover{color:#d9d9d9!important}
+.t-mist-grey, .t-hv-mist-grey:hover{color:#e0e0e0!important}
+.t-marble-grey, .t-hv-marble-grey:hover{color:#e7e7e8!important}
+
+/* Blues */
+.t-black-blue, .t-hv-black-blue:hover{color:#05172b!important}
+.t-dark-navy, .t-hv-dark-navy:hover{color:#051b35!important}
+.t-elegance, .t-hv-elegance:hover{color:#061e3e!important}
+.t-blue-navy, .t-hv-blue-navy:hover{color:#081433!important}
+.t-outer-space, .t-hv-outer-space:hover{color:#344976!important}
+.t-midnight-blue, .t-hv-midnight-blue:hover{color:#021F3E!important}
+.t-marina, .t-hv-marina:hover{color:#111b24!important}
+.t-blue-violet, .t-hv-blue-violet:hover{color:#3C4991!important}
+.t-teal-blue, .t-hv-teal-blue:hover{color:#1F4670!important}
+.t-blue-ultra, .t-hv-blue-ultra:hover{color:#1430AD!important}
+.t-navy, .t-hv-navy:hover{color:#02307a!important}
+.t-google-blue, .t-hv-google-blue:hover{color:#4885ed!important}
+.t-blue-electric, .t-hv-blue-electric:hover{color:#1744BC!important}
+.t-blue-vibrant, .t-hv-blue-vibrant:hover{color:#434bdf!important}
+.t-blue, .t-hv-blue:hover{color:#3974d4!important}
+.t-denim, .t-hv-denim:hover{color:#4571BD!important}
+.t-pacific-blue, .t-hv-pacific-blue:hover{color:#4397C7!important}
+.t-aquamarine, .t-hv-aquamarine:hover{color:#56B5D2!important}
+.t-cerulian-blue, .t-hv-cerulian-blue:hover{color:#4A90E2!important}
+.t-cornflower-blue, .t-hv-cornflower-blue:hover{color:#6F92E5!important}
+.t-blue-host, .t-hv-blue-host:hover{color:#648EFF!important}
+.t-blue-bell, .t-hv-blue-bell:hover{color:#7FB2E3!important}
+.t-blizzard-blue, .t-hv-blizzard-blue:hover{color:#A3DFFC!important}
+.t-sky, .t-hv-sky:hover{color:#B2ECFC!important}
+.t-blue-cloud, .t-hv-blue-cloud:hover{color:#D1E2F2!important}
+.t-blue-day, .t-hv-blue-day:hover{color:#86DBFD!important}
+.t-twitter, .t-hv-twitter:hover{color:#5DD5FF!important}
+.t-skype, .t-hv-skype:hover{color:#18AEF0!important}
+.t-myspace, .t-hv-myspace:hover{color:#2656B8!important}
+.t-facebook, .t-hv-facebook:hover{color:#3C5897!important}
+.t-blue-link, .t-hv-blue-link:hover{color:#0700CC!important}
+.t-explorer, .t-hv-explorer:hover{color:#0C6DB5!important}
+.t-linkedin, .t-hv-linkedin:hover{color:#3276b2!important}
+.t-aol, .t-hv-aol:hover{color:#243350!important}
+.t-blue-energy, .t-hv-blue-energy:hover{color:#3EE8FF!important}
+.t-blue-light, .t-hv-blue-light:hover{color:#3867E7!important}
+.t-blue-azure, .t-hv-blue-azure:hover{color:#1380FF!important}
+.t-pale-blue, .t-hv-pale-blue:hover{color:#9ACBFF!important}
+.t-alice-blue, .t-hv-alice-blue:hover{color:#F0F8FF!important}
+.t-light-blue, .t-hv-light-blue:hover{color:#f6f8fa!important}
+.t-morning-blue, .t-hv-morning-blue:hover{color:#E8F2FC!important}
+.t-light-sky, .t-hv-light-sky:hover{color:#d5dee5!important}
+.t-dropbox, .t-hv-dropbox:hover{color:#0a1850!important}
+
+/* Reds */
+.t-red-brick, .t-hv-red-brick:hover{color:#c13f36!important}
+.t-white-red, .t-hv-white-red:hover{color:#ffeded!important}
+.t-web-red, .t-hv-web-red:hover{color:#f73859!important}
+.t-plus-red, .t-hv-plus-red:hover{color:#f63f3a!important}
+.t-google-red, .t-hv-google-red:hover{color:#db3236!important}
+.t-you-tube, .t-hv-you-tube:hover{color:#d50d1a!important}
+.t-cherry, .t-hv-cherry:hover{color:#8d2112!important}
+.t-red-rose, .t-hv-red-rose:hover{color:#d13a35!important}
+.t-back-red, .t-hv-back-red:hover{color:#d12229!important}
+.t-smooth-red, .t-hv-smooth-red:hover{color:#f15d59!important}
+.t-jam, .t-hv-jam:hover{color:#581610!important}
+.t-merlot, .t-hv-merlot:hover{color:#4e221d!important}
+.t-garnet, .t-hv-garnet:hover{color:#58140b!important}
+.t-crimson, .t-hv-crimson:hover{color:#aa271b!important}
+.t-ruby, .t-hv-ruby:hover{color:#851b11!important}
+.t-scarlet, .t-hv-scarlet:hover{color:#861e15!important}
+.t-wine, .t-hv-wine:hover{color:#460e09!important}
+.t-apple, .t-hv-apple:hover{color:#9c2a1b!important}
+.t-mahogany, .t-hv-mahogany:hover{color:#3d110c!important}
+.t-blood, .t-hv-blood:hover{color:#68170d!important}
+.t-sangria, .t-hv-sangria:hover{color:#571e17!important}
+.t-berry, .t-hv-berry:hover{color:#702118!important}
+.t-currant, .t-hv-currant:hover{color:#5f160e!important}
+.t-blush, .t-hv-blush:hover{color:#b05a4e!important}
+.t-candy, .t-hv-candy:hover{color:#c22f1d!important}
+.t-lipstick, .t-hv-lipstick:hover{color:#902213!important}
+.t-red, .t-hv-red:hover{color:#ff2c18!important}
+.t-weak-red, .t-hv-weak-red:hover{color:#ff2c44!important}
+.t-electric-red, .t-hv-electric-red:hover{color:#d80d2c!important}
+.t-roof, .t-hv-roof:hover{color:#ff6f6e!important}
+.t-vintage-red, .t-hv-vintage-red:hover{color:#f23d5d!important}
+.t-dark-red, .t-hv-dark-red:hover{color:#D0021B!important}
+.t-light-red, .t-hv-light-red:hover{color:#FF8E9E!important}
+.t-mid-red, .t-hv-mid-red:hover{color:#E94960!important}
+.t-power-red, .t-hv-power-red:hover{color:#E4421B!important}
+.t-lego-red, .t-hv-lego-red:hover{color:#e82e22!important}
+.t-burgundy, .t-hv-burgundy:hover{color:#800020!important}
+.t-pinterest, .t-hv-pinterest:hover{color:#e60023!important}
+
+/* Greens */
+.t-night-green, .t-hv-night-green:hover{color:#011e1c!important}
+.t-forest, .t-hv-forest:hover{color:#041a19!important}
+.t-shadow-green, .t-hv-shadow-green:hover{color:#082a29!important}
+.t-green, .t-hv-green:hover{color:#17b88f!important}
+.t-web-green, .t-hv-web-green:hover{color:#008000!important}
+.t-google-green, .t-hv-google-green:hover{color:#3cba54!important}
+.t-pine, .t-hv-pine:hover{color:#6d7975!important}
+.t-light-green, .t-hv-light-green:hover{color:#ebeee5!important}
+.t-sage, .t-hv-sage:hover{color:#b0b3a2!important}
+.t-vibrant-green, .t-hv-vibrant-green:hover{color:#37fe77!important}
+.t-lego-green, .t-hv-lego-green:hover{color:#008639!important}
+.t-seafoam, .t-hv-seafoam:hover{color:#3cec97!important}
+.t-glass-green, .t-hv-glass-green:hover{color:#c4d8b3!important}
+.t-pistachio, .t-hv-pistachio:hover{color:#c1e0c9!important}
+.t-elegant-green, .t-hv-elegant-green:hover{color:#26bc9b!important}
+.t-electric-green, .t-hv-electric-green:hover{color:#2bffbd!important}
+.t-grass, .t-hv-grass:hover{color:#35cd70!important}
+.t-chartreuse, .t-hv-chartreuse:hover{color:#b0fc38!important}
+.t-crocodile, .t-hv-crocodile:hover{color:#607d3b!important}
+.t-inner-green, .t-hv-inner-green:hover{color:#42bca4!important}
+.t-outer-green, .t-hv-outer-green:hover{color:#04745e!important}
+.t-pickle, .t-hv-pickle:hover{color:#597d35!important}
+.t-moss, .t-hv-moss:hover{color:#466d1e!important}
+.t-olive, .t-hv-olive:hover{color:#98bf64!important}
+.t-pear, .t-hv-pear:hover{color:#74b62e!important}
+.t-seaweed, .t-hv-seaweed:hover{color:#354a21!important}
+.t-lime, .t-hv-lime:hover{color:#c1fd65!important}
+.t-mint, .t-hv-mint:hover{color:#98edc3!important}
+.t-ferm, .t-hv-ferm:hover{color:#5cbc63!important}
+.t-jupiter, .t-hv-jupiter:hover{color:#3a5311!important}
+.t-pale-green, .t-hv-pale-green:hover{color:#8bd5b2!important}
+.t-nature, .t-hv-nature:hover{color:#77ad1b!important}
+.t-dark-green, .t-hv-dark-green:hover{color:#1a3d1f!important}
+.t-grey-green, .t-hv-grey-green:hover{color:#27363b!important}
+.t-lavender-green, .t-hv-lavender-green:hover{color:#99b998!important}
+.t-hyper-green, .t-hv-hyper-green:hover{color:#00ff00!important}
+.t-tree, .t-hv-tree:hover{color:#00d400!important}
+.t-wedding-white, .t-hv-wedding-white:hover{color:#f7f7ef!important}
+.t-light-moon, .t-hv-light-moon:hover{color:#d5d2c1!important}
+.t-beige, .t-hv-beige:hover{color:#f6f6e0!important}
+.t-olive-leaf, .t-hv-olive-leaf:hover{color:#dbecc2!important}
+.t-amalfi, .t-hv-amalfi:hover{color:#edefa4!important}
+
+
+/* Purples */
+.t-black-purple, .t-hv-black-purple:hover{color:#2d114e!important}
+.t-dark-viola, .t-hv-dark-viola:hover{color:#251e3e!important}
+.t-deep-viola, .t-hv-deep-viola:hover{color:#3b3052!important}
+.t-vibrant-viola, .t-hv-vibrant-viola:hover{color:#7F00FF!important}
+.t-web-violet, .t-hv-web-violet:hover{color:#570051!important}
+.t-viola, .t-hv-viola:hover{color:#19191f!important}
+.t-periwinkle, .t-hv-periwinkle:hover{color:#CCCCFF!important}
+.t-violet, .t-hv-violet:hover{color:#ee82ee!important}
+.t-dark-lavender, .t-hv-dark-lavender:hover{color:#9791ae!important}
+.t-lilla, .t-hv-lilla:hover{color:#dbb6fb!important}
+.t-rose, .t-hv-rose:hover{color:#de70ec!important}
+.t-elegant-viola, .t-hv-elegant-viola:hover{color:#8f0a3e!important}
+.t-dark-burgundy, .t-hv-dark-burgundy:hover{color:#700044!important}
+.t-pale-viola, .t-hv-pale-viola:hover{color:#603553!important}
+.t-lavender, .t-hv-lavender:hover{color:#d8cce7!important}
+.t-white-purple, .t-hv-white-purple:hover{color:#EDE7F6!important}
+.t-vintage-violet, .t-hv-vintage-violet:hover{color:#8b4f7a!important}
+.t-electric-violet, .t-hv-electric-violet:hover{color:#4c005a!important}
+.t-vibrant-violet, .t-hv-vibrant-violet:hover{color:#a312e0!important}
+.t-dreamer, .t-hv-dreamer:hover{color:#e6c3f5!important}
+.t-deep-purple, .t-hv-deep-purple:hover{color:#673AB7!important}
+.t-mid-purple, .t-hv-mid-purple:hover{color:#B39DDB!important}
+.t-vibrant-purple, .t-hv-vibrant-purple:hover{color:#6200EA!important}
+.t-superman, .t-hv-superman:hover{color:#651FFF!important}
+.t-blue-purple, .t-hv-blue-purple:hover{color:#311B92!important}
+.t-dark-purple, .t-hv-dark-purple:hover{color:#4527A0!important}
+.t-vintage-purple, .t-hv-vintage-purple:hover{color:#7E57C2!important}
+.t-vibrant-pink, .t-hv-vibrant-pink:hover{color:#EB1DBC!important}
+.t-pastel-pink, .t-hv-pastel-pink:hover{color:#ffd6f3!important}
+.t-light-salmon, .t-hv-light-salmon:hover{color:#fef3ed!important}
+.t-vintage-pink, .t-hv-vintage-pink:hover{color:#f3719d!important}
+.t-hollywood-pink, .t-hv-hollywood-pink:hover{color:#fe01b1!important}
+.t-cotton-candy, .t-hv-cotton-candy:hover{color:#ffb7ce!important}
+.t-azalea, .t-hv-azalea:hover{color:#f7cee0!important}
+.t-change, .t-hv-change:hover{color:#ff1476!important}
+.t-dark-pink, .t-hv-dark-pink:hover{color:#d58a94!important}
+.t-hibiscus, .t-hv-hibiscus:hover{color:#cb416b!important}
+.t-geraldine, .t-hv-geraldine:hover{color:#fc8f9b!important}
+.t-peach, .t-hv-peach:hover{color:#ffd5d1!important}
+.t-camelot, .t-hv-camelot:hover{color:#872657!important}
+.t-han, .t-hv-han:hover{color:#de9dac!important}
+.t-ballet, .t-hv-ballet:hover{color:#f69abf!important}
+.t-salmon, .t-hv-salmon:hover{color:#fdab9f!important}
+.t-light-pink, .t-hv-light-pink:hover{color:#ffeaf9!important}
+.t-pink, .t-hv-pink:hover{color:#FFC0CB!important}
+.t-deep-pink, .t-hv-deep-pink:hover{color:#FF1493!important}
+.t-snow, .t-hv-snow:hover{color:#f4f1eb!important}
+.t-ig-pink, .t-hv-ig-pink:hover{color:#e1306c!important}
+.t-ig-purple, .t-hv-ig-purple:hover{color:#c13584!important}
+.t-ig-violet, .t-hv-ig-violet:hover{color:#833ab4!important}
+
+
+/* Browns */
+.t-clay, .t-hv-clay:hover{color:#cab69e!important}
+.t-dark-clay, .t-hv-dark-clay:hover{color:#342e28!important}
+.t-dark-brown, .t-hv-dark-brown:hover{color:#3E2723!important}
+.t-tan-brown, .t-hv-tan-brown:hover{color:#D2B48C!important}
+.t-peru, .t-hv-peru:hover{color:#CD853F!important}
+.t-elegant-brown, .t-hv-elegant-brown:hover{color:#472f18!important}
+.t-vintage-brown, .t-hv-vintage-brown:hover{color:#ba9a66!important}
+.t-yellow-brown, .t-hv-yellow-brown:hover{color:#986733!important}
+.t-siena, .t-hv-siena:hover{color:#A0522D!important}
+.t-wood, .t-hv-wood:hover{color:#653300!important}
+.t-brown, .t-hv-brown:hover{color:#5d381e!important}
+.t-light-brown, .t-hv-light-brown:hover{color:#D7CCC8!important}
+.t-mid-brown, .t-hv-mid-brown:hover{color:#8D6E63!important}
+.t-deep-brown, .t-hv-deep-brown:hover{color:#5D4037!important}
+.t-mild-brown, .t-hv-mild-brown:hover{color:#7c5835!important}
+.t-wolf, .t-hv-wolf:hover{color:#c9c0bb!important}
+.t-moon, .t-hv-moon:hover{color:#e3d9cf!important}
+.t-ochre, .t-hv-ochre:hover{color:#c17b37!important}
+.t-cider, .t-hv-cider:hover{color:#a96a38!important}
+
+/* Orange */
+.t-orange, .t-hv-orange:hover{color:#ec702d!important}
+.t-brick, .t-hv-brick:hover{color:#cf816a!important}
+.t-salt, .t-hv-salt:hover{color:#e6b89e!important}
+.t-arancio, .t-hv-arancio:hover{color:#ff9600!important}
+.t-burnt-orange, .t-hv-burnt-orange:hover{color:#dc4705!important}
+.t-terracotta, .t-hv-terracotta:hover{color:#d36216!important}
+.t-honey, .t-hv-honey:hover{color:#d68d02!important}
+.t-carrot, .t-hv-carrot:hover{color:#fd6500!important}
+.t-sandstone, .t-hv-sandstone:hover{color:#cb773d!important}
+.t-pumpkin, .t-hv-pumpkin:hover{color:#ff5603!important}
+.t-caramel, .t-hv-caramel:hover{color:#fe8a03!important}
+.t-ginger, .t-hv-ginger:hover{color:#d57f10!important}
+.t-royal, .t-hv-royal:hover{color:#eb8741!important}
+.t-tiger, .t-hv-tiger:hover{color:#ed722e!important}
+.t-warm-fire, .t-hv-warm-fire:hover{color:#f3a93f!important}
+.t-apricot, .t-hv-apricot:hover{color:#e28734!important}
+.t-squash, .t-hv-squash:hover{color:#be6228!important}
+.t-salamander, .t-hv-salamander:hover{color:#e06737!important}
+.t-melon, .t-hv-melon:hover{color:#ec9d6d!important}
+.t-shy-orange, .t-hv-shy-orange:hover{color:#ff9149!important}
+.t-elegant-orange, .t-hv-elegant-orange:hover{color:#fd5733!important}
+.t-light-orange, .t-hv-light-orange:hover{color:#fecea8!important}
+.t-mid-orange, .t-hv-mid-orange:hover{color:#FF8A65!important}
+.t-rose-orange, .t-hv-rose-orange:hover{color:#FFCCBC!important}
+.t-white-orange, .t-hv-white-orange:hover{color:#FBE9E7!important}
+.t-ig-orange, .t-hv-ig-orange:hover{color:#f56040!important}
+
+/* Yellows */
+.t-gold, .t-hv-gold:hover{color:#ad974f!important}
+.t-yellow, .t-hv-yellow:hover{color:#ffd200!important}
+.t-amber, .t-hv-amber:hover{color:#f5c042!important}
+.t-mellow, .t-hv-mellow:hover{color:#f8de7f!important}
+.t-royal-yellow, .t-hv-royal-yellow:hover{color:#fada5f!important}
+.t-cyber-yellow, .t-hv-cyber-yellow:hover{color:#f8dd08!important}
+.t-tromba, .t-hv-tromba:hover{color:#d2b45a!important}
+.t-bumblebee, .t-hv-bumblebee:hover{color:#fce205!important}
+.t-light-gold, .t-hv-light-gold:hover{color:#dcc26b!important}
+.t-cream, .t-hv-cream:hover{color:#fdfbd7!important}
+.t-mustard, .t-hv-mustard:hover{color:#f4d55d!important}
+.t-fire, .t-hv-fire:hover{color:#fdb70f!important}
+.t-dark-yellow, .t-hv-dark-yellow:hover{color:#fec400!important}
+.t-vibrant-yellow, .t-hv-vibrant-yellow:hover{color:#fdf938!important}
+.t-pale-yellow, .t-hv-pale-yellow:hover{color:#fff57d!important}
+.t-lemon, .t-hv-lemon:hover{color:#ffff66!important}
+.t-light-yellow, .t-hv-light-yellow:hover{color:#fffbc7!important}
+.t-banana, .t-hv-banana:hover{color:#fcf4a3!important}
+.t-pineapple, .t-hv-pineapple:hover{color:#fff100!important}
+.t-blond, .t-hv-blond:hover{color:#feeb75!important}
+.t-corn, .t-hv-corn:hover{color:#e4cd05!important}
+.t-google-yellow, .t-hv-google-yellow:hover{color:#f4c20d!important}
+.t-snapchat, .t-hv-snapchat:hover{color:#fffc00!important}
+.t-ig-yellow, .t-hv-ig-yellow:hover{color:#ffdc80!important}
+.t-deep-yellow, .t-hv-deep-yellow:hover{color:#feb300!important}
+
+
+/* BORDER */
+
+/* Blacks */
+.b-black, .b-hv-black:hover{border-color:#000!important}
+.b-cold-black, .b-hv-cold-black:hover{border-color:#232323!important}
+.b-designer-black, .b-hv-designer-black:hover{border-color:#282828!important}
+.b-black-matte, .b-hv-black-matte:hover{border-color:#141414!important}
+.b-neutral-black, .b-hv-neutral-black:hover{border-color:#393836!important}
+.b-elegant-black, .b-hv-elegant-black:hover{border-color:#0b0c10!important}
+.b-eigen-black, .b-hv-eigen-black:hover{border-color:#16161d!important}
+.b-dark-grey, .b-hv-dark-grey:hover{border-color:#333!important}
+.b-boot, .b-hv-boot:hover{border-color:#353a3f!important}
+.b-cyberspace, .b-hv-cyberspace:hover{border-color:#454a4e!important}
+.b-charcoal, .b-hv-charcoal:hover{border-color:#27231d!important}
+.b-soot, .b-hv-soot:hover{border-color:#140e07!important}
+
+/* Whites */
+.b-white, .b-hv-white:hover{border-color:#fff!important}
+.b-light-white, .b-hv-light-white:hover{border-color:#fafafa!important}
+.b-light-grey, .b-hv-light-grey:hover{border-color:#f6f6f6!important}
+.b-light-smoke, .b-hv-light-smoke:hover{border-color:#f9f9f9!important}
+.b-cloud, .b-hv-cloud:hover{border-color:#faf9fc!important}
+
+/* Greys */
+.b-grey, .b-hv-grey:hover{border-color:#999!important}
+.b-dark-smoke, .b-hv-dark-smoke:hover{border-color:#666!important}
+.b-web-grey, .b-hv-web-grey:hover{border-color:#606669!important}
+.b-software, .b-hv-software:hover{border-color:#7d8384!important}
+.b-stone, .b-hv-stone:hover{border-color:#cfd0d2!important}
+.b-concrete, .b-hv-concrete:hover{border-color:#bcbdc1!important}
+.b-smoke, .b-hv-smoke:hover{border-color:#d9d9d9!important}
+.b-mist-grey, .b-hv-mist-grey:hover{border-color:#e0e0e0!important}
+.b-marble-grey, .b-hv-marble-grey:hover{border-color:#e7e7e8!important}
+
+/* Blues */
+.b-black-blue, .b-hv-black-blue:hover{border-color:#05172b!important}
+.b-dark-navy, .b-hv-dark-navy:hover{border-color:#051b35!important}
+.b-elegance, .b-hv-elegance:hover{border-color:#061e3e!important}
+.b-blue-navy, .b-hv-blue-navy:hover{border-color:#081433!important}
+.b-outer-space, .b-hv-outer-space:hover{border-color:#344976!important}
+.b-midnight-blue, .b-hv-midnight-blue:hover{border-color:#021F3E!important}
+.b-marina, .b-hv-marina:hover{border-color:#111b24!important}
+.b-blue-violet, .b-hv-blue-violet:hover{border-color:#3C4991!important}
+.b-teal-blue, .b-hv-teal-blue:hover{border-color:#1F4670!important}
+.b-blue-ultra, .b-hv-blue-ultra:hover{border-color:#1430AD!important}
+.b-navy, .b-hv-navy:hover{border-color:#02307a!important}
+.b-google-blue, .b-hv-google-blue:hover{border-color:#4885ed!important}
+.b-blue-electric, .b-hv-blue-electric:hover{border-color:#1744BC!important}
+.b-blue-vibrant, .b-hv-blue-vibrant:hover{border-color:#434bdf!important}
+.b-blue, .b-hv-blue:hover{border-color:#3974d4!important}
+.b-denim, .b-hv-denim:hover{border-color:#4571BD!important}
+.b-pacific-blue, .b-hv-pacific-blue:hover{border-color:#4397C7!important}
+.b-aquamarine, .b-hv-aquamarine:hover{border-color:#56B5D2!important}
+.b-cerulian-blue, .b-hv-cerulian-blue:hover{border-color:#4A90E2!important}
+.b-cornflower-blue, .b-hv-cornflower-blue:hover{border-color:#6F92E5!important}
+.b-blue-host, .b-hv-blue-host:hover{border-color:#648EFF!important}
+.b-blue-bell, .b-hv-blue-bell:hover{border-color:#7FB2E3!important}
+.b-blizzard-blue, .b-hv-blizzard-blue:hover{border-color:#A3DFFC!important}
+.b-sky, .b-hv-sky:hover{border-color:#B2ECFC!important}
+.b-blue-cloud, .b-hv-blue-cloud:hover{border-color:#D1E2F2!important}
+.b-blue-day, .b-hv-blue-day:hover{border-color:#86DBFD!important}
+.b-twitter, .b-hv-twitter:hover{border-color:#5DD5FF!important}
+.b-skype, .b-hv-skype:hover{border-color:#18AEF0!important}
+.b-myspace, .b-hv-myspace:hover{border-color:#2656B8!important}
+.b-facebook, .b-hv-facebook:hover{border-color:#3C5897!important}
+.b-blue-link, .b-hv-blue-link:hover{border-color:#0700CC!important}
+.b-explorer, .b-hv-explorer:hover{border-color:#0C6DB5!important}
+.b-linkedin, .b-hv-linkedin:hover{border-color:#3276b2!important}
+.b-aol, .b-hv-aol:hover{border-color:#243350!important}
+.b-blue-energy, .b-hv-blue-energy:hover{border-color:#3EE8FF!important}
+.b-blue-light, .b-hv-blue-light:hover{border-color:#3867E7!important}
+.b-blue-azure, .b-hv-blue-azure:hover{border-color:#1380FF!important}
+.b-pale-blue, .b-hv-pale-blue:hover{border-color:#9ACBFF!important}
+.b-alice-blue, .b-hv-alice-blue:hover{border-color:#F0F8FF!important}
+.b-light-blue, .b-hv-light-blue:hover{border-color:#f6f8fa!important}
+.b-morning-blue, .b-hv-morning-blue:hover{border-color:#E8F2FC!important}
+.b-light-sky, .b-hv-light-sky:hover{border-color:#d5dee5!important}
+.b-dropbox, .b-hv-dropbox:hover{border-color:#0a1850!important}
+
+/* Reds */
+.b-red-brick, .b-hv-red-brick:hover{border-color:#c13f36!important}
+.b-white-red, .b-hv-white-red:hover{border-color:#ffeded!important}
+.b-web-red, .b-hv-web-red:hover{border-color:#f73859!important}
+.b-plus-red, .b-hv-plus-red:hover{border-color:#f63f3a!important}
+.b-google-red, .b-hv-google-red:hover{border-color:#db3236!important}
+.b-you-tube, .b-hv-you-tube:hover{border-color:#d50d1a!important}
+.b-cherry, .b-hv-cherry:hover{border-color:#8d2112!important}
+.b-red-rose, .b-hv-red-rose:hover{border-color:#d13a35!important}
+.b-back-red, .b-hv-back-red:hover{border-color:#d12229!important}
+.b-smooth-red, .b-hv-smooth-red:hover{border-color:#f15d59!important}
+.b-jam, .b-hv-jam:hover{border-color:#581610!important}
+.b-merlot, .b-hv-merlot:hover{border-color:#4e221d!important}
+.b-garnet, .b-hv-garnet:hover{border-color:#58140b!important}
+.b-crimson, .b-hv-crimson:hover{border-color:#aa271b!important}
+.b-ruby, .b-hv-ruby:hover{border-color:#851b11!important}
+.b-scarlet, .b-hv-scarlet:hover{border-color:#861e15!important}
+.b-wine, .b-hv-wine:hover{border-color:#460e09!important}
+.b-apple, .b-hv-apple:hover{border-color:#9c2a1b!important}
+.b-mahogany, .b-hv-mahogany:hover{border-color:#3d110c!important}
+.b-blood, .b-hv-blood:hover{border-color:#68170d!important}
+.b-sangria, .b-hv-sangria:hover{border-color:#571e17!important}
+.b-berry, .b-hv-berry:hover{border-color:#702118!important}
+.b-currant, .b-hv-currant:hover{border-color:#5f160e!important}
+.b-blush, .b-hv-blush:hover{border-color:#b05a4e!important}
+.b-candy, .b-hv-candy:hover{border-color:#c22f1d!important}
+.b-lipstick, .b-hv-lipstick:hover{border-color:#902213!important}
+.b-red, .b-hv-red:hover{border-color:#ff2c18!important}
+.b-weak-red, .b-hv-weak-red:hover{border-color:#ff2c44!important}
+.b-electric-red, .b-hv-electric-red:hover{border-color:#d80d2c!important}
+.b-roof, .b-hv-roof:hover{border-color:#ff6f6e!important}
+.b-vintage-red, .b-hv-vintage-red:hover{border-color:#f23d5d!important}
+.b-dark-red, .b-hv-dark-red:hover{border-color:#D0021B!important}
+.b-light-red, .b-hv-light-red:hover{border-color:#FF8E9E!important}
+.b-mid-red, .b-hv-mid-red:hover{border-color:#E94960!important}
+.b-power-red, .b-hv-power-red:hover{border-color:#E4421B!important}
+.b-lego-red, .b-hv-lego-red:hover{border-color:#e82e22!important}
+.b-burgundy, .b-hv-burgundy:hover{border-color:#800020!important}
+.b-pinterest, .b-hv-pinterest:hover{border-color:#e60023!important}
+
+/* Greens */
+.b-night-green, .b-hv-night-green:hover{border-color:#011e1c!important}
+.b-forest, .b-hv-forest:hover{border-color:#041a19!important}
+.b-shadow-green, .b-hv-shadow-green:hover{border-color:#082a29!important}
+.b-green, .b-hv-green:hover{border-color:#17b88f!important}
+.b-web-green, .b-hv-web-green:hover{border-color:#008000!important}
+.b-google-green, .b-hv-google-green:hover{border-color:#3cba54!important}
+.b-pine, .b-hv-pine:hover{border-color:#6d7975!important}
+.b-light-green, .b-hv-light-green:hover{border-color:#ebeee5!important}
+.b-sage, .b-hv-sage:hover{border-color:#b0b3a2!important}
+.b-vibrant-green, .b-hv-vibrant-green:hover{border-color:#37fe77!important}
+.b-lego-green, .b-hv-lego-green:hover{border-color:#008639!important}
+.b-seafoam, .b-hv-seafoam:hover{border-color:#3cec97!important}
+.b-glass-green, .b-hv-glass-green:hover{border-color:#c4d8b3!important}
+.b-pistachio, .b-hv-pistachio:hover{border-color:#c1e0c9!important}
+.b-elegant-green, .b-hv-elegant-green:hover{border-color:#26bc9b!important}
+.b-electric-green, .b-hv-electric-green:hover{border-color:#2bffbd!important}
+.b-grass, .b-hv-grass:hover{border-color:#35cd70!important}
+.b-chartreuse, .b-hv-chartreuse:hover{border-color:#b0fc38!important}
+.b-crocodile, .b-hv-crocodile:hover{border-color:#607d3b!important}
+.b-inner-green, .b-hv-inner-green:hover{border-color:#42bca4!important}
+.b-outer-green, .b-hv-outer-green:hover{border-color:#04745e!important}
+.b-pickle, .b-hv-pickle:hover{border-color:#597d35!important}
+.b-moss, .b-hv-moss:hover{border-color:#466d1e!important}
+.b-olive, .b-hv-olive:hover{border-color:#98bf64!important}
+.b-pear, .b-hv-pear:hover{border-color:#74b62e!important}
+.b-seaweed, .b-hv-seaweed:hover{border-color:#354a21!important}
+.b-lime, .b-hv-lime:hover{border-color:#c1fd65!important}
+.b-mint, .b-hv-mint:hover{border-color:#98edc3!important}
+.b-ferm, .b-hv-ferm:hover{border-color:#5cbc63!important}
+.b-jupiter, .b-hv-jupiter:hover{border-color:#3a5311!important}
+.b-pale-green, .b-hv-pale-green:hover{border-color:#8bd5b2!important}
+.b-nature, .b-hv-nature:hover{border-color:#77ad1b!important}
+.b-dark-green, .b-hv-dark-green:hover{border-color:#1a3d1f!important}
+.b-grey-green, .b-hv-grey-green:hover{border-color:#27363b!important}
+.b-lavender-green, .b-hv-lavender-green:hover{border-color:#99b998!important}
+.b-hyper-green, .b-hv-hyper-green:hover{border-color:#00ff00!important}
+.b-tree, .b-hv-tree:hover{border-color:#00d400!important}
+.b-wedding-white, .b-hv-wedding-white:hover{border-color:#f7f7ef!important}
+.b-light-moon, .b-hv-light-moon:hover{border-color:#d5d2c1!important}
+.b-beige, .b-hv-beige:hover{border-color:#f6f6e0!important}
+.b-olive-leaf, .b-hv-olive-leaf:hover{border-color:#dbecc2!important}
+.b-amalfi, .b-hv-amalfi:hover{border-color:#edefa4!important}
+
+
+/* Purples */
+.b-black-purple, .b-hv-black-purple:hover{border-color:#2d114e!important}
+.b-dark-viola, .b-hv-dark-viola:hover{border-color:#251e3e!important}
+.b-deep-viola, .b-hv-deep-viola:hover{border-color:#3b3052!important}
+.b-vibrant-viola, .b-hv-vibrant-viola:hover{border-color:#7F00FF!important}
+.b-web-violet, .b-hv-web-violet:hover{border-color:#570051!important}
+.b-viola, .b-hv-viola:hover{border-color:#19191f!important}
+.b-periwinkle, .b-hv-periwinkle:hover{border-color:#CCCCFF!important}
+.b-violet, .b-hv-violet:hover{border-color:#ee82ee!important}
+.b-dark-lavender, .b-hv-dark-lavender:hover{border-color:#9791ae!important}
+.b-lilla, .b-hv-lilla:hover{border-color:#dbb6fb!important}
+.b-rose, .b-hv-rose:hover{border-color:#de70ec!important}
+.b-elegant-viola, .b-hv-elegant-viola:hover{border-color:#8f0a3e!important}
+.b-dark-burgundy, .b-hv-dark-burgundy:hover{border-color:#700044!important}
+.b-pale-viola, .b-hv-pale-viola:hover{border-color:#603553!important}
+.b-lavender, .b-hv-lavender:hover{border-color:#d8cce7!important}
+.b-white-purple, .b-hv-white-purple:hover{border-color:#EDE7F6!important}
+.b-vintage-violet, .b-hv-vintage-violet:hover{border-color:#8b4f7a!important}
+.b-electric-violet, .b-hv-electric-violet:hover{border-color:#4c005a!important}
+.b-vibrant-violet, .b-hv-vibrant-violet:hover{border-color:#a312e0!important}
+.b-dreamer, .b-hv-dreamer:hover{border-color:#e6c3f5!important}
+.b-deep-purple, .b-hv-deep-purple:hover{border-color:#673AB7!important}
+.b-mid-purple, .b-hv-mid-purple:hover{border-color:#B39DDB!important}
+.b-vibrant-purple, .b-hv-vibrant-purple:hover{border-color:#6200EA!important}
+.b-superman, .b-hv-superman:hover{border-color:#651FFF!important}
+.b-blue-purple, .b-hv-blue-purple:hover{border-color:#311B92!important}
+.b-dark-purple, .b-hv-dark-purple:hover{border-color:#4527A0!important}
+.b-vintage-purple, .b-hv-vintage-purple:hover{border-color:#7E57C2!important}
+.b-vibrant-pink, .b-hv-vibrant-pink:hover{border-color:#EB1DBC!important}
+.b-pastel-pink, .b-hv-pastel-pink:hover{border-color:#ffd6f3!important}
+.b-light-salmon, .b-hv-light-salmon:hover{border-color:#fef3ed!important}
+.b-vintage-pink, .b-hv-vintage-pink:hover{border-color:#f3719d!important}
+.b-hollywood-pink, .b-hv-hollywood-pink:hover{border-color:#fe01b1!important}
+.b-cotton-candy, .b-hv-cotton-candy:hover{border-color:#ffb7ce!important}
+.b-azalea, .b-hv-azalea:hover{border-color:#f7cee0!important}
+.b-change, .b-hv-change:hover{border-color:#ff1476!important}
+.b-dark-pink, .b-hv-dark-pink:hover{border-color:#d58a94!important}
+.b-hibiscus, .b-hv-hibiscus:hover{border-color:#cb416b!important}
+.b-geraldine, .b-hv-geraldine:hover{border-color:#fc8f9b!important}
+.b-peach, .b-hv-peach:hover{border-color:#ffd5d1!important}
+.b-camelot, .b-hv-camelot:hover{border-color:#872657!important}
+.b-han, .b-hv-han:hover{border-color:#de9dac!important}
+.b-ballet, .b-hv-ballet:hover{border-color:#f69abf!important}
+.b-salmon, .b-hv-salmon:hover{border-color:#fdab9f!important}
+.b-light-pink, .b-hv-light-pink:hover{border-color:#ffeaf9!important}
+.b-pink, .b-hv-pink:hover{border-color:#FFC0CB!important}
+.b-deep-pink, .b-hv-deep-pink:hover{border-color:#FF1493!important}
+.b-snow, .b-hv-snow:hover{border-color:#f4f1eb!important}
+.b-ig-pink, .b-hv-ig-pink:hover{border-color:#e1306c!important}
+.b-ig-purple, .b-hv-ig-purple:hover{border-color:#c13584!important}
+.b-ig-violet, .b-hv-ig-violet:hover{border-color:#833ab4!important}
+
+
+/* Browns */
+.b-clay, .b-hv-clay:hover{border-color:#cab69e!important}
+.b-dark-clay, .b-hv-dark-clay:hover{border-color:#342e28!important}
+.b-dark-brown, .b-hv-dark-brown:hover{border-color:#3E2723!important}
+.b-tan-brown, .b-hv-tan-brown:hover{border-color:#D2B48C!important}
+.b-peru, .b-hv-peru:hover{border-color:#CD853F!important}
+.b-elegant-brown, .b-hv-elegant-brown:hover{border-color:#472f18!important}
+.b-vintage-brown, .b-hv-vintage-brown:hover{border-color:#ba9a66!important}
+.b-yellow-brown, .b-hv-yellow-brown:hover{border-color:#986733!important}
+.b-siena, .b-hv-siena:hover{border-color:#A0522D!important}
+.b-wood, .b-hv-wood:hover{border-color:#653300!important}
+.b-brown, .b-hv-brown:hover{border-color:#5d381e!important}
+.b-light-brown, .b-hv-light-brown:hover{border-color:#D7CCC8!important}
+.b-mid-brown, .b-hv-mid-brown:hover{border-color:#8D6E63!important}
+.b-deep-brown, .b-hv-deep-brown:hover{border-color:#5D4037!important}
+.b-mild-brown, .b-hv-mild-brown:hover{border-color:#7c5835!important}
+.b-wolf, .b-hv-wolf:hover{border-color:#c9c0bb!important}
+.b-moon, .b-hv-moon:hover{border-color:#e3d9cf!important}
+.b-ochre, .b-hv-ochre:hover{border-color:#c17b37!important}
+.b-cider, .b-hv-cider:hover{border-color:#a96a38!important}
+
+/* Orange */
+.b-orange, .b-hv-orange:hover{border-color:#ec702d!important}
+.b-brick, .b-hv-brick:hover{border-color:#cf816a!important}
+.b-salt, .b-hv-salt:hover{border-color:#e6b89e!important}
+.b-arancio, .b-hv-arancio:hover{border-color:#ff9600!important}
+.b-burnt-orange, .b-hv-burnt-orange:hover{border-color:#dc4705!important}
+.b-terracotta, .b-hv-terracotta:hover{border-color:#d36216!important}
+.b-honey, .b-hv-honey:hover{border-color:#d68d02!important}
+.b-carrot, .b-hv-carrot:hover{border-color:#fd6500!important}
+.b-sandstone, .b-hv-sandstone:hover{border-color:#cb773d!important}
+.b-pumpkin, .b-hv-pumpkin:hover{border-color:#ff5603!important}
+.b-caramel, .b-hv-caramel:hover{border-color:#fe8a03!important}
+.b-ginger, .b-hv-ginger:hover{border-color:#d57f10!important}
+.b-royal, .b-hv-royal:hover{border-color:#eb8741!important}
+.b-tiger, .b-hv-tiger:hover{border-color:#ed722e!important}
+.b-warm-fire, .b-hv-warm-fire:hover{border-color:#f3a93f!important}
+.b-apricot, .b-hv-apricot:hover{border-color:#e28734!important}
+.b-squash, .b-hv-squash:hover{border-color:#be6228!important}
+.b-salamander, .b-hv-salamander:hover{border-color:#e06737!important}
+.b-melon, .b-hv-melon:hover{border-color:#ec9d6d!important}
+.b-shy-orange, .b-hv-shy-orange:hover{border-color:#ff9149!important}
+.b-elegant-orange, .b-hv-elegant-orange:hover{border-color:#fd5733!important}
+.b-light-orange, .b-hv-light-orange:hover{border-color:#fecea8!important}
+.b-mid-orange, .b-hv-mid-orange:hover{border-color:#FF8A65!important}
+.b-rose-orange, .b-hv-rose-orange:hover{border-color:#FFCCBC!important}
+.b-white-orange, .b-hv-white-orange:hover{border-color:#FBE9E7!important}
+.b-ig-orange, .b-hv-ig-orange:hover{border-color:#f56040!important}
+
+/* Yellows */
+.b-gold, .b-hv-gold:hover{border-color:#ad974f!important}
+.b-yellow, .b-hv-yellow:hover{border-color:#ffd200!important}
+.b-amber, .b-hv-amber:hover{border-color:#f5c042!important}
+.b-mellow, .b-hv-mellow:hover{border-color:#f8de7f!important}
+.b-royal-yellow, .b-hv-royal-yellow:hover{border-color:#fada5f!important}
+.b-cyber-yellow, .b-hv-cyber-yellow:hover{border-color:#f8dd08!important}
+.b-tromba, .b-hv-tromba:hover{border-color:#d2b45a!important}
+.b-bumblebee, .b-hv-bumblebee:hover{border-color:#fce205!important}
+.b-light-gold, .b-hv-light-gold:hover{border-color:#dcc26b!important}
+.b-cream, .b-hv-cream:hover{border-color:#fdfbd7!important}
+.b-mustard, .b-hv-mustard:hover{border-color:#f4d55d!important}
+.b-fire, .b-hv-fire:hover{border-color:#fdb70f!important}
+.b-dark-yellow, .b-hv-dark-yellow:hover{border-color:#fec400!important}
+.b-vibrant-yellow, .b-hv-vibrant-yellow:hover{border-color:#fdf938!important}
+.b-pale-yellow, .b-hv-pale-yellow:hover{border-color:#fff57d!important}
+.b-lemon, .b-hv-lemon:hover{border-color:#ffff66!important}
+.b-light-yellow, .b-hv-light-yellow:hover{border-color:#fffbc7!important}
+.b-banana, .b-hv-banana:hover{border-color:#fcf4a3!important}
+.b-pineapple, .b-hv-pineapple:hover{border-color:#fff100!important}
+.b-blond, .b-hv-blond:hover{border-color:#feeb75!important}
+.b-corn, .b-hv-corn:hover{border-color:#e4cd05!important}
+.b-google-yellow, .b-hv-google-yellow:hover{border-color:#f4c20d!important}
+.b-snapchat, .b-hv-snapchat:hover{border-color:#fffc00!important}
+.b-ig-yellow, .b-hv-ig-yellow:hover{border-color:#ffdc80!important}
+.b-deep-yellow, .b-hv-deep-yellow:hover{border-color:#feb300!important}
+
+
+.no-bg{background: none!important}
+
+/* GRADIENTS */
+.gr-white, .hv-gr-white:hover{
+    border: none;
+    background: rgb(255,255,255);
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%)!important;
+}
+.gr-light-grey, .hv-gr-light-grey:hover{
+    border: none;
+    background: rgb(247,247,247);
+    background: linear-gradient(140deg, rgba(247,247,247,1) 0%, rgba(209,209,209,1) 100%)!important;
+}
+.gr-dark-grey, .hv-gr-dark-grey:hover{
+    border: none;
+    background: rgb(247,247,247);
+    background: linear-gradient(140deg, rgba(247,247,247,1) 0%, rgba(155,155,155,1) 100%)!important;
+}
+.gr-red-yellow, .hv-gr-red-yellow:hover{
+    border: none;
+    background: rgb(212,87,105);
+    background: linear-gradient(140deg, rgba(212,87,105,1) 0%, rgba(230,149,69,1) 100%)!important;
+}
+.gr-mid-orange, .hv-gr-mid-orange:hover{
+    border: none;
+    background: rgb(238,180,98);
+    background: linear-gradient(140deg, rgba(238,180,98,1) 0%, rgba(205,118,114,1) 100%)!important;
+}
+.gr-yellow-orange, .hv-gr-yellow-orange:hover{
+    border: none;
+    background: rgb(248,217,15);
+    background: linear-gradient(140deg, rgba(248,217,15,1) 0%, rgba(254,122,21,1) 100%)!important;
+}
+.gr-orange-viola, .hv-gr-orange-viola:hover{
+    border: none;
+    background: rgb(205,118,114);
+    background: linear-gradient(140deg, rgba(205,118,114,1) 0%, rgba(83,70,102,1) 100%)!important;
+}
+.gr-salmon-pink, .hv-gr-salmon-pink:hover{
+    border: none;
+    background: rgb(232,164,156);
+    background: linear-gradient(140deg, rgba(232,164,156,1) 0%, rgba(240,67,147,1) 100%)!important;
+}
+.gr-viola-pink, .hv-gr-viola-pink:hover{
+    border: none;
+    background: rgb(60,76,173);
+    background: linear-gradient(140deg, rgba(60,76,173,1) 0%, rgba(240,67,147,1) 100%)!important;
+}
+.gr-pink-yellow, .hv-gr-pink-yellow:hover{
+    border: none;
+    background: rgb(240,67,147);
+    background: linear-gradient(140deg, rgba(240,67,147,1) 0%, rgba(249,196,73,1) 100%)!important;
+}
+.gr-blue-yellow, .hv-gr-blue-yellow:hover{
+    border: none;
+    background: rgb(53,187,202);
+    background: linear-gradient(140deg, rgba(53,187,202,1) 0%, rgba(248,217,15,1) 100%)!important;
+}
+.gr-blue-pink, .hv-gr-blue-pink:hover{
+    border: none;
+    background: rgb(66,140,212);
+    background: linear-gradient(140deg, rgba(66,140,212,1) 0%, rgba(255,156,218,1) 100%)!important;
+}
+.gr-aqua-pink, .hv-gr-aqua-pink:hover{
+    border: none;
+    background: rgb(165,202,210);
+    background: linear-gradient(140deg, rgba(165,202,210,1) 0%, rgba(255,123,137,1) 100%)!important;
+}
+.gr-blue, .hv-gr-blue:hover{
+    border: none;
+    background: rgb(123,213,245);
+    background: linear-gradient(140deg, rgba(123,213,245,1) 0%, rgba(120,127,246,1) 100%)!important;
+}
+.gr-light-blue, .hv-gr-light-blue:hover{
+    border: none;
+    background: rgb(208,247,255);
+    background: linear-gradient(140deg, rgba(208,247,255,1) 0%, rgba(123,213,245,1) 100%)!important;
+}
+.gr-dark-blue, .hv-gr-dark-blue:hover{
+    border: none;
+    background: rgb(18,12,110);
+    background: linear-gradient(140deg, rgba(18,12,110,1) 0%, rgba(94,114,235,1) 100%)!important;
+}
+.gr-dark-green, .hv-gr-dark-green:hover{
+    border: none;
+    background: rgb(32,80,114);
+    background: linear-gradient(140deg, rgba(32,80,114,1) 0%, rgba(50,157,156,1) 100%)!important;
+}
+.gr-green, .hv-gr-green:hover{
+    background: rgb(123,228,149);
+    background: linear-gradient(140deg, rgba(123,228,149,1) 0%, rgba(50,157,156,1) 100%)!important;
+}
+.gr-light-green, .hv-gr-light-green:hover{
+    border: none;
+    background: rgb(207,244,210);
+    background: linear-gradient(140deg, rgba(207,244,210,1) 0%, rgba(123,228,149,1) 100%)!important;
+}
+.gr-pink, .hv-gr-pink:hover{
+    border: none;
+    background: rgb(250,167,184);
+    background: linear-gradient(140deg, rgba(250,167,184,1) 0%, rgba(251,139,126,1) 100%)!important;
+}
+.gr-light-pink, .hv-gr-light-pink:hover{
+    border: none;
+    background: rgb(229,193,205);
+    background: linear-gradient(140deg, rgba(229,193,205,1) 0%, rgba(243,219,207,1) 100%)!important;
+}
+.gr-dark-pink, .hv-gr-dark-pink:hover{
+    border: none;
+    background: rgb(255,123,137);
+    background: linear-gradient(140deg, rgba(255,123,137,1) 0%, rgba(138,80,130,1) 100%)!important;
+}
+.gr-yellow-green, .hv-gr-yellow-green:hover{
+    border: none;
+    background: rgb(248,217,15);
+    background: linear-gradient(140deg, rgba(248,217,15,1) 0%, rgba(211,221,24,1) 100%)!important;
+}
+.gr-dark-purple, .hv-gr-dark-purple:hover{
+    border: none;
+    background: rgb(194,100,154);
+    background: linear-gradient(140deg, rgba(194,100,154,1) 0%, rgba(138,80,130,1) 100%)!important;
+}
+.gr-vintage, .hv-gr-vintage:hover{
+    border: none;
+    background: rgb(229,213,159);
+    background: linear-gradient(140deg, rgba(229,213,159,1) 0%, rgba(211,231,238,1) 100%)!important;
+}
+.gr-red, .hv-gr-red:hover{
+    border: none;
+    background: rgb(255,111,110);
+    background: linear-gradient(140deg, rgba(255,111,110,1) 0%, rgba(209,34,41,1) 100%)!important;
+}
+.gr-light-red, .hv-gr-light-red:hover{
+    border: none;
+    background: rgb(255,142,158);
+    background: linear-gradient(140deg, rgba(255,142,158,1) 0%, rgba(255,237,237,1) 100%)!important;
+}
+.gr-dark-red, .hv-gr-dark-red:hover{
+    border: none;
+    background: rgb(219,50,54);
+    background: linear-gradient(140deg, rgba(219,50,54,1) 0%, rgba(128,0,32,1) 100%)!important;
+}
+.gr-brown, .hv-gr-brown:hover{
+    border: none;
+    background: rgb(210,180,140);
+    background: linear-gradient(140deg, rgba(210,180,140,1) 0%, rgba(141,110,99,1) 100%)!important;
+}
+.gr-light-brown, .hv-gr-light-brown:hover{
+    border: none;
+    background: rgb(244,241,235);
+    background: linear-gradient(140deg, rgba(244,241,235,1) 0%, rgba(210,180,140,1) 100%)!important;
 }
 
 /*------ STYLES -----*/
 
 /* OPACITY */
-.op-1{
-    opacity: .1!important;
+.op-1, .hv-op-1:hover{
+    opacity: .1;
 }
-.op-2{
-    opacity: .2!important;
+.op-2, .hv-op-2:hover{
+    opacity: .2;
 }
-.op-3{
-    opacity: .3!important;
+.op-3, .hv-op-3:hover{
+    opacity: .3;
 }
-.op-4{
-    opacity: .4!important;
+.op-4, .hv-op-4:hover{
+    opacity: .4;
 }
-.op-5{
-    opacity: .5!important;
+.op-5, .hv-op-5:hover{
+    opacity: .5;
 }
-.op-6{
-    opacity: .6!important;
+.op-6, .hv-op-6:hover{
+    opacity: .6;
 }
-.op-7{
-    opacity: .7!important;
+.op-7, .hv-op-7:hover{
+    opacity: .7;
 }
-.op-8{
-    opacity: .8!important;
+.op-8, .hv-op-8:hover{
+    opacity: .8;
 }
-.op-9{
-    opacity: .9!important;
+.op-9, .hv-op-9:hover{
+    opacity: .9;
 }
 
 /* FORMATTING */
@@ -191,67 +1139,172 @@
 .relative {
 	position: relative;
 }
-
-/* HEIGHTS */
-.h-50 {
-	height: 50px!important;
+.lspace-1, .hv-lspace-1:hover {
+	letter-spacing: 1px;
 }
-.h-100 {
-	height: 100px!important;
+.lspace-2, .hv-lspace-2:hover {
+	letter-spacing: 2px;
 }
-.h-150 {
-	height: 150px!important;
+.lspace-3, .hv-lspace-3:hover {
+	letter-spacing: 3px;
 }
-.h-200 {
-	height: 200px!important;
+.lspace-4, .hv-lspace-4:hover {
+	letter-spacing: 4px;
 }
-.h-250 {
-	height: 250px!important;
-}
-.h-300 {
-	height: 300px!important;
-}
-.h-350 {
-	height: 350px!important;
-}
-.h-400 {
-	height: 400px!important;
-}
-.h-450 {
-	height: 450px!important;
-}
-.h-500 {
-	height: 500px!important;
+.lspace-5, .hv-lspace-5:hover {
+	letter-spacing: 5px;
 }
 
 /* PADDINGS */
+.no-padding {
+	padding: 0!important;
+}
 
 /* Padding */
+.p-5 {
+	padding: 5px!important;
+}
+.p-10 {
+	padding: 10px!important;
+}
+.p-15 {
+	padding: 15px!important;
+}
 .p-20 {
-	padding: 20px 0!important;
+	padding: 20px!important;
+}
+.p-25 {
+	padding: 25px!important;
+}
+.p-30 {
+	padding: 30px!important;
+}
+.p-35 {
+	padding: 35px!important;
+}
+.p-40 {
+	padding: 40px!important;
+}
+.p-45 {
+	padding: 45px!important;
 }
 .p-50 {
-	padding: 50px 0!important;
+	padding: 50px!important;
+}
+.p-55 {
+	padding: 55px!important;
+}
+.p-60 {
+	padding: 60px!important;
+}
+.p-65 {
+	padding: 65px!important;
+}
+.p-70 {
+	padding: 70px!important;
+}
+.p-75 {
+	padding: 75px!important;
+}
+.p-80 {
+	padding: 80px!important;
+}
+.p-85 {
+	padding: 85px!important;
+}
+.p-90 {
+	padding: 90px!important;
+}
+.p-95 {
+	padding: 95px!important;
 }
 .p-100 {
+	padding: 100px!important;
+}
+
+/* Padding Top/Bottom*/
+.ptb-5 {
+	padding: 5px 0!important;
+}
+.ptb-10 {
+	padding: 10px 0!important;
+}
+.ptb-15 {
+	padding: 15px 0!important;
+}
+.ptb-20 {
+	padding: 20px 0!important;
+}
+.ptb-25 {
+	padding: 25px 0!important;
+}
+.ptb-30 {
+	padding: 30px 0!important;
+}
+.ptb-40 {
+	padding: 40px 0!important;
+}
+.ptb-50 {
+	padding: 50px 0!important;
+}
+.ptb-60 {
+	padding: 60px 0!important;
+}
+.ptb-70 {
+	padding: 70px 0!important;
+}
+.ptb-80 {
+	padding: 80px 0!important;
+}
+.ptb-90 {
+	padding: 90px 0!important;
+}
+.ptb-100 {
 	padding: 100px 0!important;
 }
-.p-150 {
+.ptb-120 {
+	padding: 120px 0!important;
+}
+.ptb-150 {
 	padding: 150px 0!important;
 }
 
 /* Padding Top */
-.pt-200 {
-	padding: 200px 0!important;
+.pt-5 {
+	padding-top: 5px!important;
+}
+.pt-10 {
+	padding-top: 10px!important;
 }
 .pt-20 {
 	padding-top: 20px!important;
 }
+.pt-30 {
+	padding-top: 30px!important;
+}
+.pt-40 {
+	padding-top: 40px!important;
+}
 .pt-50 {
 	padding-top: 50px!important;
 }
+.pt-60 {
+	padding-top: 60px!important;
+}
+.pt-70 {
+	padding-top: 70px!important;
+}
+.pt-80 {
+	padding-top: 80px!important;
+}
+.pt-90 {
+	padding-top: 90px!important;
+}
 .pt-100 {
 	padding-top: 100px!important;
+}
+.pt-120 {
+	padding-top: 120px!important;
 }
 .pt-150 {
 	padding-top: 150px!important;
@@ -261,14 +1314,129 @@
 }
 
 /* Padding Bottom */
+.pb-5 {
+	padding-bottom: 5px!important;
+}
+.pb-10 {
+	padding-bottom: 10px!important;
+}
 .pb-20 {
 	padding-bottom: 20px!important;
+}
+.pb-30 {
+	padding-bottom: 30px!important;
+}
+.pb-40 {
+	padding-bottom: 40px!important;
 }
 .pb-50 {
 	padding-bottom: 50px!important;
 }
+.pb-60 {
+	padding-bottom: 60px!important;
+}
+.pb-70 {
+	padding-bottom: 70px!important;
+}
+.pb-80 {
+	padding-bottom: 80px!important;
+}
+.pb-90 {
+	padding-bottom: 90px!important;
+}
 .pb-100 {
 	padding-bottom: 100px!important;
+}
+.pb-120 {
+	padding-bottom: 120px!important;
+}
+.pb-150 {
+	padding-bottom: 150px!important;
+}
+.pb-200 {
+	padding-bottom: 200px!important;
+}
+
+/* Padding left */
+.pb-5 {
+	padding-bottom: 5px!important;
+}
+.pb-10 {
+	padding-bottom: 10px!important;
+}
+.pb-20 {
+	padding-bottom: 20px!important;
+}
+.pb-30 {
+	padding-bottom: 30px!important;
+}
+.pb-40 {
+	padding-bottom: 40px!important;
+}
+.pb-50 {
+	padding-bottom: 50px!important;
+}
+.pb-60 {
+	padding-bottom: 60px!important;
+}
+.pb-70 {
+	padding-bottom: 70px!important;
+}
+.pb-80 {
+	padding-bottom: 80px!important;
+}
+.pb-90 {
+	padding-bottom: 90px!important;
+}
+.pb-100 {
+	padding-bottom: 100px!important;
+}
+.pb-120 {
+	padding-bottom: 120px!important;
+}
+.pb-150 {
+	padding-bottom: 150px!important;
+}
+.pb-200 {
+	padding-bottom: 200px!important;
+}
+
+/* Padding Right */
+.pb-5 {
+	padding-bottom: 5px!important;
+}
+.pb-10 {
+	padding-bottom: 10px!important;
+}
+.pb-20 {
+	padding-bottom: 20px!important;
+}
+.pb-30 {
+	padding-bottom: 30px!important;
+}
+.pb-40 {
+	padding-bottom: 40px!important;
+}
+.pb-50 {
+	padding-bottom: 50px!important;
+}
+.pb-60 {
+	padding-bottom: 60px!important;
+}
+.pb-70 {
+	padding-bottom: 70px!important;
+}
+.pb-80 {
+	padding-bottom: 80px!important;
+}
+.pb-90 {
+	padding-bottom: 90px!important;
+}
+.pb-100 {
+	padding-bottom: 100px!important;
+}
+.pb-120 {
+	padding-bottom: 120px!important;
 }
 .pb-150 {
 	padding-bottom: 150px!important;
@@ -278,33 +1446,155 @@
 }
 
 /* MARGINS */
+.no-margin {
+	margin: 0!important;
+}
 
 /* Margin */
+.m-5 {
+	margin: 5px!important;
+}
+.m-10 {
+	margin: 10px!important;
+}
+.m-15 {
+	margin: 15px!important;
+}
 .m-20 {
-	margin: 20px 0!important;
+	margin: 20px!important;
+}
+.m-25 {
+	margin: 25px!important;
+}
+.m-30 {
+	margin: 30px!important;
+}
+.m-35 {
+	margin: 35px!important;
+}
+.m-40 {
+	margin: 40px!important;
+}
+.m-45 {
+	margin: 45px!important;
 }
 .m-50 {
-	margin: 50px 0!important;
+	margin: 50px!important;
+}
+.m-55 {
+	margin: 55px!important;
+}
+.m-60 {
+	margin: 60px!important;
+}
+.m-65 {
+	margin: 65px!important;
+}
+.m-70 {
+	margin: 70px!important;
+}
+.m-75 {
+	margin: 75px!important;
+}
+.m-80 {
+	margin: 80px!important;
+}
+.m-85 {
+	margin: 85px!important;
+}
+.m-90 {
+	margin: 90px!important;
+}
+.m-95 {
+	margin: 95px!important;
 }
 .m-100 {
+	margin: 100px!important;
+}
+
+/* Margin Top Bottom */
+.mtb-5 {
+	margin: 5px 0!important;
+}
+.mtb-10 {
+	margin: 10px 0!important;
+}
+.mtb-15 {
+	margin: 15px 0!important;
+}
+.mtb-20 {
+	margin: 20px 0!important;
+}
+.mtb-25 {
+	margin: 25px 0!important;
+}
+.mtb-30 {
+	margin: 30px 0!important;
+}
+.mtb-40 {
+	margin: 40px 0!important;
+}
+.mtb-50 {
+	margin: 50px 0!important;
+}
+.mtb-60 {
+	margin: 60px 0!important;
+}
+.mtb-70 {
+	margin: 70px 0!important;
+}
+.mtb-80 {
+	margin: 80px 0!important;
+}
+.mtb-90 {
+	margin: 90px 0!important;
+}
+.mtb-100 {
 	margin: 100px 0!important;
 }
-.m-150 {
+.mtb-120 {
+	margin: 120px 0!important;
+}
+.mtb-150 {
 	margin: 150px 0!important;
 }
-.m-200 {
+.mtb-200 {
 	margin: 200px 0!important;
 }
 
 /* Margin Top */
+.mt-10 {
+	margin-top: 10px!important;
+}
 .mt-20 {
 	margin-top: 20px!important;
+}
+.mt-30 {
+	margin-top: 30px!important;
+}
+.mt-40 {
+	margin-top: 40px!important;
 }
 .mt-50 {
 	margin-top: 50px!important;
 }
+.mt-60 {
+	margin-top: 60px!important;
+}
+.mt-70 {
+	margin-top: 70px!important;
+}
+.mt-80 {
+	margin-top: 80px!important;
+}
+.mt-90 {
+	margin-top: 90px!important;
+}
 .mt-100 {
 	margin-top: 100px!important;
+}
+.mt-120 {
+	margin-top: 120px!important;
 }
 .mt-150 {
 	margin-top: 150px!important;
@@ -314,14 +1604,38 @@
 }
 
 /* Margin Bottom */
+.mb-10 {
+	margin-bottom: 10px!important;
+}
 .mb-20 {
 	margin-bottom: 20px!important;
+}
+.mb-30 {
+	margin-bottom: 30px!important;
+}
+.mb-40 {
+	margin-bottom: 40px!important;
 }
 .mb-50 {
 	margin-bottom: 50px!important;
 }
+.mb-60 {
+	margin-bottom: 60px!important;
+}
+.mb-70 {
+	margin-bottom: 70px!important;
+}
+.mb-80 {
+	margin-bottom: 80px!important;
+}
+.mb-90 {
+	margin-bottom: 90px!important;
+}
 .mb-100 {
 	margin-bottom: 100px!important;
+}
+.mb-120 {
+	margin-bottom: 120px!important;
 }
 .mb-150 {
 	margin-bottom: 150px!important;
@@ -330,12 +1644,121 @@
 	margin-bottom: 200px!important;
 }
 
+/* Margin Left */
+.ml-5 {
+	margin-left: 5px!important;
+}
+.ml-10 {
+	margin-left: 10px!important;
+}
+.ml-15 {
+	margin-left: 15px!important;
+}
+.ml-20 {
+	margin-left: 20px!important;
+}
+.ml-25 {
+	margin-left: 25px!important;
+}
+.ml-30 {
+	margin-left: 30px!important;
+}
+.ml-40 {
+	margin-left: 40px!important;
+}
+.ml-50 {
+	margin-left: 50px!important;
+}
+.ml-60 {
+	margin-left: 60px!important;
+}
+.ml-70 {
+	margin-left: 70px!important;
+}
+.ml-80 {
+	margin-left: 80px!important;
+}
+.ml-90 {
+	margin-left: 90px!important;
+}
+.ml-100 {
+	margin-left: 100px!important;
+}
+
+/* Margin Right */
+.mr-5 {
+	margin-right: 5px!important;
+}
+.mr-10 {
+	margin-right: 10px!important;
+}
+.mr-15 {
+	margin-right: 15px!important;
+}
+.mr-20 {
+	margin-right: 20px!important;
+}
+.mr-25 {
+	margin-right: 25px!important;
+}
+.mr-30 {
+	margin-right: 30px!important;
+}
+.mr-40 {
+	margin-right: 40px!important;
+}
+.mr-50 {
+	margin-right: 50px!important;
+}
+.mr-60 {
+	margin-right: 60px!important;
+}
+.mr-70 {
+	margin-right: 70px!important;
+}
+.mr-80 {
+	margin-right: 80px!important;
+}
+.mr-90 {
+	margin-right: 90px!important;
+}
+.mr-100 {
+	margin-right: 100px!important;
+}
+
 /* Margin Top Minus */
+.mt-minus-10 {
+	margin-top: -10px!important;
+}
+.mt-minus-20 {
+	margin-top: -20px!important;
+}
+.mt-minus-30 {
+	margin-top: -30px!important;
+}
+.mt-minus-40 {
+	margin-top: -40px!important;
+}
 .mt-minus-50 {
 	margin-top: -50px!important;
 }
+.mt-minus-60 {
+	margin-top: -60px!important;
+}
+.mt-minus-70 {
+	margin-top: -70px!important;
+}
+.mt-minus-80 {
+	margin-top: -80px!important;
+}
+.mt-minus-90 {
+	margin-top: -90px!important;
+}
 .mt-minus-100 {
 	margin-top: -100px!important;
+}
+.mt-minus-120 {
+	margin-top: -120px!important;
 }
 .mt-minus-150 {
 	margin-top: -150px!important;
@@ -351,11 +1774,38 @@
 }
 
 /* Margin Right Minus */
+.mr-minus-10 {
+	margin-right: -10px!important;
+}
+.mr-minus-20 {
+	margin-right: -20px!important;
+}
+.mr-minus-30 {
+	margin-right: -30px!important;
+}
+.mr-minus-40 {
+	margin-right: -40px!important;
+}
 .mr-minus-50 {
 	margin-right: -50px!important;
 }
+.mr-minus-60 {
+	margin-right: -60px!important;
+}
+.mr-minus-70 {
+	margin-right: -70px!important;
+}
+.mr-minus-80 {
+	margin-right: -80px!important;
+}
+.mr-minus-90 {
+	margin-right: -90px!important;
+}
 .mr-minus-100 {
 	margin-right: -100px!important;
+}
+.mr-minus-120 {
+	margin-right: -120px!important;
 }
 .mr-minus-150 {
 	margin-right: -150px!important;
@@ -371,11 +1821,38 @@
 }
 
 /* Margin Left Minus */
+.ml-minus-10 {
+	margin-left: -10px!important;
+}
+.ml-minus-20 {
+	margin-left: -20px!important;
+}
+.ml-minus-30 {
+	margin-left: -30px!important;
+}
+.ml-minus-40 {
+	margin-left: -40px!important;
+}
 .ml-minus-50 {
 	margin-left: -50px!important;
 }
+.ml-minus-60 {
+	margin-left: -60px!important;
+}
+.ml-minus-70 {
+	margin-left: -70px!important;
+}
+.ml-minus-80 {
+	margin-left: -80px!important;
+}
+.ml-minus-90 {
+	margin-left: -90px!important;
+}
 .ml-minus-100 {
 	margin-left: -100px!important;
+}
+.ml-minus-120 {
+	margin-left: -120px!important;
 }
 .ml-minus-150 {
 	margin-left: -150px!important;
@@ -393,44 +1870,288 @@
 /* SHAPE STYLES */
 
 /* Borders */
-.border{
+
+/* Border 1px by side */
+.border, .hv-border:hover{
     border: 1px solid #010101;
 }
-.border-b{
+.border-b, .hv-border-b:hover{
     border-bottom: 1px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-right:0; 
 }
-.border-t{
+.border-t, .hv-border-t:hover{
     border-top: 1px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:0; 
 }
-.border-half{
-    border: .5px solid #010101;
+.border-l, .hv-border-t:hover{
+    border-left: 1px solid #010101;
+    border-right:0;
+    border-top:0;
+    border-bottom:0; 
 }
-.border-b-half{
-    border-bottom: .5px solid #010101;
+.border-r, .hv-border-r:hover{
+    border-right: 1px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-bottom:0; 
 }
-.border-t-half{
-    border-top: .5px solid #010101;
+.border-rl, .hv-border-rl:hover{
+    border-left: 1px solid #010101;
+    border-right:1px solid #010101;
+    border-top:0;
+    border-bottom:0; 
 }
-.border-2{
+.border-tb, .hv-border-tb:hover{
+    border-top: 1px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:1px solid #010101; 
+}
+/* Border 2px by side */
+.border-2, .hv-border-2:hover{
     border: 2px solid #010101;
 }
-.border-b-2{
+.border-b-2, .hv-border-b-2:hover{
     border-bottom: 2px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-right:0; 
 }
-.border-t-2{
+.border-t-2, .hv-border-t-2:hover{
     border-top: 2px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:0; 
 }
-.square{
-    border-radius: 0;
+.border-l-2, .hv-border-l-2:hover{
+    border-left: 2px solid #010101;
+    border-right:0;
+    border-top:0;
+    border-bottom:0; 
 }
-.round{
-    border-radius: 50px;
+.border-r-2, .hv-border-r-2:hover{
+    border-right: 2px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-bottom:0; 
+}
+.border-rl-2, .hv-border-rl-2:hover{
+    border-left: 2px solid #010101;
+    border-right:2px solid #010101;
+    border-top:0;
+    border-bottom:0; 
+}
+.border-tb-2, .hv-border-tb-2:hover{
+    border-top: 2px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:2px solid #010101; 
+}
+/* Border 3px by side */
+.border-3, .hv-border-3:hover{
+    border: 3px solid #010101;
+}
+.border-b-3, .hv-border-b-3:hover{
+    border-bottom: 3px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-right:0; 
+}
+.border-t-3, .hv-border-t-3:hover{
+    border-top: 3px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:0; 
+}
+.border-l-3, .hv-border-l-3:hover{
+    border-left: 3px solid #010101;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.border-r-3, .hv-border-r-3:hover{
+    border-right: 3px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-bottom:0;  
+}
+.border-rl-3, .hv-border-rl-3:hover{
+    border-left: 3px solid #010101;
+    border-right:3px solid #010101;
+    border-top:0;
+    border-bottom:0; 
+}
+.border-tb-3, .hv-border-tb-3:hover{
+    border-top: 2px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:3px solid #010101; 
+}
+/* Border 4px by side */
+.border-4, .hv-border-4:hover{
+    border: 4px solid #010101;
+}
+.border-b-4, .hv-border-b-4:hover{
+    border-bottom: 4px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-right:0; 
+}
+.border-t-4, .hv-border-t-4:hover{
+    border-top: 4px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:0; 
+}
+.border-l-4, .hv-border-l-4:hover{
+    border-left: 4px solid #010101;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.border-r-4, .hv-border-r-4:hover{
+    border-right: 4px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-bottom:0;  
+}
+.border-rl-4, .hv-border-rl-4:hover{
+    border-left: 4px solid #010101;
+    border-right:4px solid #010101;
+    border-top:0;
+    border-bottom:0; 
+}
+.border-tb-4, .hv-border-tb-4:hover{
+    border-top: 4px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:4px solid #010101; 
+}
+/* Border 5px by side */
+.border-5, .hv-border-5:hover{
+    border: 5px solid #010101;
+}
+.border-b-5, .hv-border-b-5:hover{
+    border-bottom: 5px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-right:0; 
+}
+.border-t-5, .hv-border-t-5:hover{
+    border-top: 5px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:0; 
+}
+.border-l-5, .hv-border-l-5:hover{
+    border-left: 5px solid #010101;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.border-r-5, .hv-border-r-5:hover{
+    border-right: 5px solid #010101;
+    border-left:0;
+    border-top:0;
+    border-bottom:0;  
+}
+.border-rl-5, .hv-border-rl-5:hover{
+    border-left: 5px solid #010101;
+    border-right:5px solid #010101;
+    border-top:0;
+    border-bottom:0; 
+}
+.border-tb-5, .hv-border-tb-5:hover{
+    border-top: 5px solid #010101;
+    border-left:0;
+    border-right:0;
+    border-bottom:5px solid #010101; 
+}
+
+/* Border radius behaviour */
+.square, .hv-square:hover{
+    border-radius: 0!important;
+}
+.round-3, .hv-round-3:hover{
+    border-radius: 3px!important;
+}
+.round-6, .hv-round-6:hover{
+    border-radius: 6px!important;
+}
+.round-12, .hv-round-12:hover{
+    border-radius: 12px!important;
+}
+.round-24, .hv-round-24:hover{
+    border-radius: 24px!important;
+}
+.round, .hv-round:hover{
+    border-radius: 50px!important;
+}
+.pill, .hv-pill:hover{
+    border-radius: 50%!important;
+}
+/* Border square by side */
+.square-tl, .hv-square-tl:hover{
+    border-top-left-radius: 0!important;
+}
+.square-tr, .hv-square-tr:hover{
+    border-top-right-radius: 0!important;
+}
+.square-bl, .hv-square-bl:hover{
+    border-bottom-left-radius: 0!important;
+}
+.square-br, .hv-square-br:hover{
+    border-bottom-right-radius: 0!important;
 }
 
 /* Shadows */
-.shadow{
-    box-shadow: 0 10px 100px 0 rgba(0,0,0,0.1);
+.shadow, .hv-shadow:hover{
+    -webkit-box-shadow: 0px 10px 100px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 10px 100px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 100px 0px rgba(0,0,0,0.1);
 }
+.shadow-2, .hv-shadow-2:hover{
+    -webkit-box-shadow: 0px 10px 100px 20px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 10px 100px 20px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 100px 20px rgba(0,0,0,0.1);
+}
+.shadow-3, .hv-shadow-3:hover{
+    -webkit-box-shadow: 10px 9px 52px -4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 9px 52px -4px rgba(0,0,0,0.2);
+    box-shadow: 10px 9px 52px -4px rgba(0,0,0,0.2);
+}
+.shadow-4, .hv-shadow-4:hover{
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+}
+.shadow-5, .hv-shadow-5:hover{
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow-6, .hv-shadow-6:hover{
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+}
+.shadow-7, .hv-shadow-7:hover{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+}
+.shadow-8, .hv-shadow-8:hover{
+    box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+}
+.shadow-9, .hv-shadow-9:hover{
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+.shadow-10, .hv-shadow-10:hover{
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
 
 /* Overlays */
 .color-overlay {
@@ -443,12 +2164,90 @@
     opacity: 0.5;
 }
 .gradient-overlay {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 80%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 80%)!important;
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
+    top: 0;
 }
-.gradient-overlay.white {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 80%);
+.gradient-overlay-white {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 80%)!important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/* BUTTONS */
+.primary-btn {
+    color: #ffffff;
+	text-align: center;
+    padding: 17px 25px;
+    border-color: transparent;
+    background: #3f382e;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0;
+    line-height:normal;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.primary-btn:focus {
+  outline: none;
+}
+.primary-btn:hover {
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+.primary-btn:active {
+    opacity: .7;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+.primary-btn.is-checked{
+    opacity: .3;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+.icon {
+    padding: 20px 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.primary-btn.tiny {
+    padding: 5px 10px;
+    font-size: 9px;
+}
+
+.primary-btn.small {
+    padding: 10px 15px;
+    font-size: 11px;
+}
+.primary-btn.big {
+    padding: 25px;
+    min-width: 200px;
+    font-size: 16px;
+}
+.primary-btn.large {
+    padding: 35px;
+    min-width: 200px;
+    font-size: 20px;
 }
